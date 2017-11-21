@@ -8,7 +8,7 @@ Use live class reloading to avoid having to restart the game for most changes in
 ### Gradle generation of forge javadocs
 http://maven.thiakil.com/forge-1.12-javadoc/
 
-### its really obscure but dont tick this box
+### Gradle runner setting
 http://i.nentify.me/xvdv2.png
 
 ### JEI Discord to ask questions
