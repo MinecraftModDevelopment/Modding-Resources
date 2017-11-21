@@ -1,2 +1,2 @@
-# Modding-Ressources
-A set of ressources for minecraft modding with MinecraftForge by the community
+# Modding-Resources
+A set of resources for minecraft modding with MinecraftForge by the community
