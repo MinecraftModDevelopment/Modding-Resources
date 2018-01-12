@@ -1,3 +1,22 @@
+### AI Task
+The red task will run when the entity#getAttackTarget != null. And as long as the target is null, the green tasks will run in order to set an attack target.
+so if you want to set a target, you add a target task. But if you want to modify how they attack or add a task to move somewhere, you add a task.
+
+![alt text](https://cdn.discordapp.com/attachments/179315645005955072/399651904428310528/tasks.png)
+
+### Basic challenges to learn Git
+https://try.github.io/levels/1/challenges/1
+
+### Code recipe to JSON generator
+https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
+
+https://crafting.thedestruc7i0n.ca/
+
+### Mod Tutorials
+https://github.com/McJty/ModTutorials
+
+https://shadowfacts.net/tutorials/forge-modding-112/
+
 ### ObjectHolders and registry class
 Simple explanation and exemple of an object holder and registry class
 https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e
