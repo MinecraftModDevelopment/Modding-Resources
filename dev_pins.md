@@ -1,50 +1,35 @@
-### AI Task
-The red task will run when the entity#getAttackTarget != null. And as long as the target is null, the green tasks will run in order to set an attack target.
-so if you want to set a target, you add a target task. But if you want to modify how they attack or add a task to move somewhere, you add a task.
+### How to make code blocks with syntax highlighting:
+\```java  
+CODE HERE  
+\```  
+Full formatting guide here https://support.discordapp.com/hc/en-us/articles/210298617
 
-![alt text](https://cdn.discordapp.com/attachments/179315645005955072/399651904428310528/tasks.png)
+### List of mod ideas
+https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/
 
-### Basic challenges to learn Git
+### Java for complete beginners
+https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411/
+
+https://docs.oracle.com/javase/tutorial/java/concepts/
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
+
+The oracle docs can be technical at times, if you're an absolute beginner, you might find something like CodeAcademy to be more helpful.
+
+### Git basics
+###### Basic challenges to learn Git
 https://try.github.io/levels/1/challenges/1
 
-### Code recipe to JSON generator
-https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
+###### Using Git
+clone `git clone -b branchName https://github.com/user/repo.git`, stage `git add`, commit `git commit -m \"message\"`, push `git push`
 
-https://crafting.thedestruc7i0n.ca/
+###### Removing sensitive data from your git repo
+https://help.github.com/articles/remove-sensitive-data/
 
-### Mod Tutorials
-https://github.com/McJty/ModTutorials
-
-https://shadowfacts.net/tutorials/forge-modding-112/
-
-### ObjectHolders and registry class
-Simple explanation and exemple of an object holder and registry class
-https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e
-
-### Live class reloading
-Use live class reloading to avoid having to restart the game for most changes in your code. Start the game with a debugger, make your changes, save, then (depending on your IDE) do\nIntellij: Click the button left to the launch configurations (Build Project). You will be prompted to reload classes. Accept.\nEclipse: Select Project -\u003e Build All\n\nFor live resource reloading, build your project, then press F3+T in-game.
-
-### Gradle generation of forge javadocs
-http://maven.thiakil.com/forge-1.12-javadoc/
-
-### Gradle runner setting
-http://i.nentify.me/xvdv2.png
-
-### JEI Discord to ask questions
-https://discord.gg/EevEdSG
-
-### Modding guide by Shadows-of-Fire 
-https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt
-
-
-### Polygon function
-https://stackoverflow.com/questions/8721406/how-to-determine-if-a-point-is-inside-a-2d-convex-polygon#8721483
-
-### Converting old recipe code into json
-https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
-
-### Condition factories registered from JSON 
-https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json#L8-L10
+### MinecraftForge documentation
+https://mcforge.readthedocs.io/en/latest/
 
 ### CurseForge maven endpoint
 ```Gradle
@@ -63,46 +48,109 @@ compile "<curse-slug>:<jarname>:<version>"
 }
 ```
 
-### Using Git
-stage `git add`, commit `git commit -m \"message\"`, push `git push`
+### A way to check if you are running in a dev environment
+```java
+public static boolean isDevEnv() {
+    return (Boolean) Launch.blackboard.get("fml.deobfuscatedEnvironment");
+}
+```
+
+### MCP mapping tools
+http://mcp.thiakil.com/index.html
+
+http://bspk.rs/MC/MCPMappingViewer/index.html
+
+### Minecraft dev IDEA plugin
+https://plugins.jetbrains.com/plugin/8327/
 
 ### Minecraft energy types conversion rates
-https://gist.github.com/DeflatedPickle/403e1eb0bb0bed7f2509142e63630726
+https://gist.github.com/DeflatedPickle/403e1eb0bb0bed7f2509142e63630726/
+
+### Live class reloading
+Use live class reloading to avoid having to restart the game for most changes in your code. Start the game with a debugger, make your changes, save, then (depending on your IDE)
+
+Intellij: Click the button left to the launch configurations (Build Project). You will be prompted to reload classes. Accept.
+
+Eclipse: Select Project - Build All For live resource reloading, build your project, then press F3+T in-game.
+
+### Gradle generation of forge javadocs
+http://maven.thiakil.com/forge-1.12-javadoc/
+
+### Gradle runner setting
+http://i.nentify.me/xvdv2.png
+
+### Mod Tutorials/Guides
+https://tutorials.darkhax.net/pages/tutorials/
+
+https://wiki.mcjty.eu/modding/index.php?title=Main_Page - 1.10.2/1.11/1.12 Documentation 
+
+https://github.com/McJty/ModTutorials/ - 1.8.9/1.9.4/1.10.2/1.11/1.12
+
+https://shadowfacts.net/tutorials/forge-modding-112/ - 1.10.2/1.11.2/1.12
+
+https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
+
+https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
+
+https://bedrockminer.jimdo.com/modding-tutorials/ 1.7.10/1.8.9
+
+http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
 
 ### Minecraft Annotations
-https://github.com/mezz/MinecraftAnnotations
+https://github.com/mezz/MinecraftAnnotations/
 
-### List of mod ideas
-https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/edit?usp\u003ddrivesdk
-
-### Deprecation
-It is deprecated, as in you should not CALL it.
-As Mojang is still working on the internals to move away from this and other functions in Block in favor of BlockState they have marked a lot of Functions @Deprecated in a "Do not call this but if you MUST override it, then do so"
-Minecraft has been, is, and always will be a work in progress. Its just one of the quirks.
-
-### Animations in ressource packs
-http://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties
-
+### ObjectHolders and registry class
+Simple explanation and exemple of an object holder and registry class
+https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e/
 
 ### Information on the vanilla debug profiler
-https://redd.it/5mxn51
+https://redd.it/5mxn51/
 
-### 1.10.2 exemple mod
-https://github.com/McJty/ModTutorials/tree/1.10.2
+### Ore Dict match
+```java
+public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
+        if (OreDictionary.itemMatches(stack1, stack2, true)){
+            return true;
+        }
+        else {
+            int[] oreIds = OreDictionary.getOreIDs(stack1);
+            for (int i = 0; i < oreIds.length; i ++){
+                if (OreDictionary.containsMatch(true, OreDictionary.getOres(OreDictionary.getOreName(oreIds[i])), stack2)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+```
 
-### Ressources to start Java
-https://docs.oracle.com/javase/tutorial/java/concepts/
-https://docs.oracle.com/javase/tutorial/java/javaOO/
-https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
-The oracle docs can be technical at times, if you're an absolute beginner, you might find something like CodeAcademy to be more helpful.
+### JSon linter
+http://jsonlint.com/
 
-### MinecraftForge documentation
-https://mcforge.readthedocs.io/en/latest/
+### JEI Discord to ask questions
+https://discord.gg/EevEdSG
 
-### Rendering a basic block
-http://pastebin.com/N1YRRcm7
+### Recipe creation/conversion tools
+###### Vanilla recipe generation tool (replace the items with the mods own)
+https://crafting.thedestruc7i0n.ca/
 
-### Summoning mobs
+###### Converting old recipe code into json
+https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
+
+### Condition factories registered from JSON 
+https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json#L8-L10
+
+### Detection system for MCreator mods
+http://mdetector.thedragonteam.net/test.html
+
+### Mob stuff
+###### AI Task
+The red task will run when the entity#getAttackTarget != null. And as long as the target is null, the green tasks will run in order to set an attack target.
+so if you want to set a target, you add a target task. But if you want to modify how they attack or add a task to move somewhere, you add a task.
+
+![alt text](https://cdn.discordapp.com/attachments/179315645005955072/399651904428310528/tasks.png)
+
+###### Summoning mobs
 ```java
 public static void summonMobsOnBreakBlock(EntityMob mob, int loop, World worldIn, BlockPos pos) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 
@@ -116,6 +164,40 @@ public static void summonMobsOnBreakBlock(EntityMob mob, int loop, World worldIn
 
     }
 ```
+
+###### Mob ore drop
+```java
+public class MobOreDrops {
+
+    @SubscribeEvent
+    public void onEntityDrop(LivingDropsEvent event) {
+        if(event.entityLiving instanceof EntityCreature) {
+            Random r = new Random();
+            List<ItemStack> ores = OreDictionary.getOres("oreIron");
+            if (ores == null || ores.size() <= 0) { return; }
+            Item oreItem = (Item) ores.get(0).getItem();
+            event.entityLiving.dropItem(oreItem, r.nextInt(2));
+        }
+    }
+    
+}
+```
+
+### Useful ASM coremodding ressources
+https://www.youtube.com/watch?v=FgaxnpD-DC4/
+
+https://www.youtube.com/watch?v=75_rJYLj5AU/
+
+*NOT FOR BEGINNERS!!!*
+
+### Polygon function
+https://stackoverflow.com/questions/8721406/how-to-determine-if-a-point-is-inside-a-2d-convex-polygon#8721483
+
+### Animations in ressource packs
+http://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties
+
+### Rendering a basic block
+http://pastebin.com/N1YRRcm7
 
 ### Neighbor block caching for stuff like context-sensitive render states
 ```java
@@ -163,30 +245,6 @@ Usage:
 NeighborCache<IBlockState> stateCache = new NeighborCache<>(pos, (p) -> world.getBlockState(p));
 NeighborCache<TileEntity> tileCache = new NeighborCache<>(pos, (p) -> world.getTileEntity(p));
 ```
-
-### Minecraft dev IDEA plugin
-https://plugins.jetbrains.com/plugin/8327
-
-### Troubleshooting Block and Item Rendering
-http://greyminecraftcoder.blogspot.com.au/2015/03/troubleshooting-block-and-item-rendering.html
-
-### Mob ore drop
-```java
-public class MobOreDrops {
-
-    @SubscribeEvent
-    public void onEntityDrop(LivingDropsEvent event) {
-        if(event.entityLiving instanceof EntityCreature) {
-            Random r = new Random();
-            List<ItemStack> ores = OreDictionary.getOres("oreIron");
-            if (ores == null || ores.size() <= 0) { return; }
-            Item oreItem = (Item) ores.get(0).getItem();
-            event.entityLiving.dropItem(oreItem, r.nextInt(2));
-        }
-    }
-    
-}
-```
 ### Rendering Handler
 ```java
 RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, new IRenderFactory<GolemBase>() 
@@ -198,42 +256,8 @@ RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, new IRenderFac
     }
 });
 ```
-### Models
+### Models 1.7.2
 http://jabelarminecraft.blogspot.com/p/complex-entity-models-including.html
-
-### Removing sensitive data from your git repo
-https://help.github.com/articles/remove-sensitive-data/
-
-### Java for complete beginners
-https://www.youtube.com/playlist?list\u003dPL9DF6E4B45C36D411
-
-### Detection system for MCreator mods
-http://mdetector.thedragonteam.net/test.html
-
-### Making a flying armor
-http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2678865-help-how-to-apply-flight-to-an-armor-in-eclipse-1
-more concise but you need to know more Java: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2650028-trying-to-make-an-item-that-allows-flight#c7
-
-### JSon linter
-http://jsonlint.com/
-
-### Ore Dict match
-```java
-public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
-        if (OreDictionary.itemMatches(stack1, stack2, true)){
-            return true;
-        }
-        else {
-            int[] oreIds = OreDictionary.getOreIDs(stack1);
-            for (int i = 0; i < oreIds.length; i ++){
-                if (OreDictionary.containsMatch(true, OreDictionary.getOres(OreDictionary.getOreName(oreIds[i])), stack2)){
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-```
 
 ### Basic Item Model
 ```json
@@ -244,14 +268,9 @@ public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
     }
 }
 ```
+### Troubleshooting Block and Item Rendering
+http://greyminecraftcoder.blogspot.co.uk/2015/03/troubleshooting-block-and-item-rendering.html
 
-### Darkhax's tutorials
-http://tutorials.darkhax.net/
-
-### Useful ASM coremmoding ressources
-https://www.youtube.com/watch?v\u003dFgaxnpD-DC4
-https://www.youtube.com/watch?v\u003d75_rJYLj5AU
-NOT for beginners!!!
-
-### Useful stuff for beginners
-https://docs.oracle.com/javase/tutorial/
+### Making a flying armor
+http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2678865-help-how-to-apply-flight-to-an-armor-in-eclipse-1
+more concise but you need to know more Java: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2650028-trying-to-make-an-item-that-allows-flight#c7
