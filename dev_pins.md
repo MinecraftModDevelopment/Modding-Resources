@@ -23,10 +23,23 @@ The oracle docs can be technical at times, if you're an absolute beginner, you m
 https://try.github.io/levels/1/challenges/1
 
 ###### Using Git
-clone | `git clone -b branchName https://github.com/user/repo.git`,  
-stage | `git add`,  
-commit | `git commit -m \"message\"`,  
-push | `git push`  
+To clone an entire repo.  
+``git clone https://github.com/user/repo.git``
+
+To clone a repo with a certain branch.  
+``git clone -b branchName https://github.com/user/repo.git``
+
+To stage all changes.  
+``git add *``
+
+To stage some changes.  
+``git add ifItsInAFolder/file.txt``
+
+To commit changes to the local repo with a message.  
+``git commit -m "Here is a nice message"``
+
+To push all changes to github.  
+``git push``
 
 ###### Removing sensitive data from your git repo
 https://help.github.com/articles/remove-sensitive-data/
