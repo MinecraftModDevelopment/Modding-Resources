@@ -29,7 +29,7 @@ https://www.gitkraken.com/
 Easy for new users  
 https://www.sourcetreeapp.com/
 
-Mid ranged
+Mid ranged  
 https://www.sourcetreeapp.com/
 
 ###### Using Git
