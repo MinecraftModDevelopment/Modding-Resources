@@ -8,7 +8,7 @@ Full formatting guide here https://support.discordapp.com/hc/en-us/articles/2102
 https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/
 
 ### Java for complete beginners
-https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411/
+https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411
 
 https://docs.oracle.com/javase/tutorial/java/concepts/
 
