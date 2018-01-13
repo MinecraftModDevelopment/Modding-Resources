@@ -22,6 +22,16 @@ The oracle docs can be technical at times, if you're an absolute beginner, you m
 ###### Basic challenges to learn Git
 https://try.github.io/levels/1/challenges/1
 
+###### Git clients
+Semi advanced  
+https://www.gitkraken.com/
+
+Easy for new users  
+https://www.sourcetreeapp.com/
+
+Mid ranged
+https://www.sourcetreeapp.com/
+
 ###### Using Git
 To clone an entire repo.  
 ``git clone https://github.com/user/repo.git``
@@ -90,13 +100,11 @@ Use live class reloading to avoid having to restart the game for most changes in
 
 Intellij: Click the button left to the launch configurations (Build Project). You will be prompted to reload classes. Accept.
 
-Eclipse: Select Project - Build All For live resource reloading, build your project, then press F3+T in-game.
+Eclipse: Select Project  
+Build All For live resource reloading, build your project, then press F3+T in-game.
 
 ### Gradle generation of forge javadocs
 http://maven.thiakil.com/forge-1.12-javadoc/
-
-### Gradle runner setting
-http://i.nentify.me/xvdv2.png
 
 ### Mod Tutorials/Guides
 https://tutorials.darkhax.net/pages/tutorials/
