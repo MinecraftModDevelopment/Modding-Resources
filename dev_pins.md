@@ -22,8 +22,37 @@ The oracle docs can be technical at times, if you're an absolute beginner, you m
 ###### Basic challenges to learn Git
 https://try.github.io/levels/1/challenges/1
 
+###### Git clients
+Semi advanced  
+https://www.gitkraken.com/
+
+Easy for new users  
+https://www.sourcetreeapp.com/
+
+Mid ranged  
+https://www.sourcetreeapp.com/
+
 ###### Using Git
-clone `git clone -b branchName https://github.com/user/repo.git`, stage `git add`, commit `git commit -m \"message\"`, push `git push`
+To clone an entire repo.  
+``git clone https://github.com/user/repo.git``
+
+To find the clone url for a repo look for this green button on Github then click it and copy the link provided.  
+![alt text](https://cdn.discordapp.com/attachments/197165501741400064/401824959556747264/Screenshot_2018-01-13_19-48-03.png)
+
+To clone a repo with a certain branch.  
+``git clone -b branchName https://github.com/user/repo.git``
+
+To stage all changes.  
+``git add *``
+
+To stage some changes.  
+``git add ifItsInAFolder/file.txt``
+
+To commit changes to the local repo with a message.  
+``git commit -m "Here is a nice message"``
+
+To push all changes to github.  
+``git push``
 
 ###### Removing sensitive data from your git repo
 https://help.github.com/articles/remove-sensitive-data/
@@ -71,13 +100,12 @@ Use live class reloading to avoid having to restart the game for most changes in
 
 Intellij: Click the button left to the launch configurations (Build Project). You will be prompted to reload classes. Accept.
 
-Eclipse: Select Project - Build All For live resource reloading, build your project, then press F3+T in-game.
+Eclipse: Your IDE is likely configured to build automatically, all you have to do is save. If not, select Project -> Build All.
+
+For live resource reloading, build your project first, then press F3+T in-game.
 
 ### Gradle generation of forge javadocs
 http://maven.thiakil.com/forge-1.12-javadoc/
-
-### Gradle runner setting
-http://i.nentify.me/xvdv2.png
 
 ### Mod Tutorials/Guides
 https://tutorials.darkhax.net/pages/tutorials/
@@ -272,5 +300,5 @@ http://jabelarminecraft.blogspot.com/p/complex-entity-models-including.html
 http://greyminecraftcoder.blogspot.co.uk/2015/03/troubleshooting-block-and-item-rendering.html
 
 ### Making a flying armor
-http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2678865-help-how-to-apply-flight-to-an-armor-in-eclipse-1
+http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2678865-help-how-to-apply-flight-to-an-armor-in-eclipse-1  
 more concise but you need to know more Java: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2650028-trying-to-make-an-item-that-allows-flight#c7
