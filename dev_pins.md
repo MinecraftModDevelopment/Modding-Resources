@@ -27,7 +27,7 @@ Semi advanced
 https://www.gitkraken.com/
 
 Easy for new users  
-https://www.sourcetreeapp.com/
+https://desktop.github.com/
 
 Mid ranged  
 https://www.sourcetreeapp.com/
