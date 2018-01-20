@@ -4,6 +4,9 @@ CODE HERE
 \```  
 Full formatting guide here https://support.discordapp.com/hc/en-us/articles/210298617
 
+### 1.13 Changes/Primer
+https://gist.github.com/williewillus/353c872bcf1a6ace9921189f6100d09a
+
 ### List of mod ideas
 https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/
 
