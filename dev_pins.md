@@ -255,9 +255,6 @@ https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/
 TextureAtlasSprite texture = Minecraft.getMinecraft().getTextureMapBlocks().getAtlasSprite(fluid.getFluid().getFlowing(fluid).toString());
 ```
 
-### Detection system for MCreator mods
-http://mdetector.thedragonteam.net/test.html
-
 ### 1.11 to 1.12 class name changes
 https://github.com/ModCoderPack/MCPBot-Issues/wiki/1.11.0-to-1.12.0-migration
 
