@@ -255,6 +255,9 @@ https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/
 TextureAtlasSprite texture = Minecraft.getMinecraft().getTextureMapBlocks().getAtlasSprite(fluid.getFluid().getFlowing(fluid).toString());
 ```
 
+### Preventing remote movement on entities
+ set "PreventRemoteMovement" to true on the entity data, i.e. make `item.getEntityData().getBoolean("PreventRemoteMovement")`return true, and magnets should not grab things from your plates. That was agreed upon somewhere in a github issue on ImmEng, and is supported by most mods with magnets
+
 ### 1.11 to 1.12 class name changes
 https://github.com/ModCoderPack/MCPBot-Issues/wiki/1.11.0-to-1.12.0-migration
 
