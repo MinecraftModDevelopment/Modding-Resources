@@ -10,6 +10,23 @@ https://gist.github.com/williewillus/353c872bcf1a6ace9921189f6100d09a
 ### List of mod ideas
 https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/
 
+### Mod Tutorials/Guides
+https://tutorials.darkhax.net/pages/tutorials/
+
+https://wiki.mcjty.eu/modding/index.php?title=Main_Page - 1.10.2/1.11/1.12 Documentation 
+
+https://github.com/McJty/ModTutorials/ - 1.8.9/1.9.4/1.10.2/1.11/1.12
+
+https://shadowfacts.net/tutorials/forge-modding-112/ - 1.10.2/1.11.2/1.12
+
+https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
+
+https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
+
+https://bedrockminer.jimdo.com/modding-tutorials/ 1.7.10/1.8.9
+
+http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
+
 ### Java for complete beginners
 https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411
 
@@ -20,6 +37,65 @@ https://docs.oracle.com/javase/tutorial/java/javaOO/
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
 
 The oracle docs can be technical at times, if you're an absolute beginner, you might find something like CodeAcademy to be more helpful.
+
+### Gradle settings for minecraft
+
+Where things go:
+The block itself goes in the minecraft block.
+the respective vars get defined in your gradle.properties, I suggest NOT putting the ones starting mc_ in your per project gradle.properties, do it in your user gradle.properties instead (That's the one in .gradle).
+
+What it does:
+1) Lets you define how much ram is given to the client or server when they're run with gradlew runClient/runServer.
+2) Lets you enter your username/password and/or UUID when in dev mode.
+3) Adds "nogui" when running runServer (Comment out/remove if not wanted).
+
+
+```gradle
+  if (project.hasProperty('mc_username')) {
+    clientRunArgs += ['--username', project.mc_username]
+    if (project.hasProperty('mc_password')) {
+      clientRunArgs += ['--password', project.mc_password]
+    }
+  }
+  if (project.hasProperty('mc_uuid')) {
+    clientRunArgs += ['--uuid', project.mc_uuid]
+  }
+
+  // disable server gui
+  serverRunArgs += 'nogui'
+
+  // skip the screen to confirm that you want to load a world with missing registry entries
+  serverJvmArgs += '-Dfml.doNotBackup=true'
+  clientJvmArgs += '-Dfml.doNotBackup=true'
+
+  // skip having to confirm on server
+  serverJvmArgs += '-Dfml.queryResult=confirm'
+
+  //skip jansi warnings in the log
+  serverJvmArgs += '-Dlog4j.skipJansi=true'
+  clientJvmArgs += '-Dlog4j.skipJansi=true'
+
+  if (project.hasProperty('client_args')) {
+    clientJvmArgs += project.client_args
+  }
+  if (project.hasProperty('server_args')) {
+    serverJvmArgs += project.server_args
+  }
+```
+
+### Gradle setting for missing regsitry entries
+```gradle
+serverJvmArgs += "-Dfml.doNotBackup=true"
+clientJvmArgs += "-Dfml.doNotBackup=true"
+
+serverJvmArgs += "-Dfml.queryResult=confirm"
+```
+first ones skip the screen to confirm that you want to load a world with missing registry entries, last one does this for the server
+
+### Argument to remove "Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream" 
+```gradle
+-Dlog4j.skipJansi=true
+```
 
 ### Git basics
 ###### Basic challenges to learn Git
@@ -110,23 +186,6 @@ For live resource reloading, build your project first, then press F3+T in-game.
 ### Gradle generation of forge javadocs
 http://maven.thiakil.com/forge-1.12-javadoc/
 
-### Mod Tutorials/Guides
-https://tutorials.darkhax.net/pages/tutorials/
-
-https://wiki.mcjty.eu/modding/index.php?title=Main_Page - 1.10.2/1.11/1.12 Documentation 
-
-https://github.com/McJty/ModTutorials/ - 1.8.9/1.9.4/1.10.2/1.11/1.12
-
-https://shadowfacts.net/tutorials/forge-modding-112/ - 1.10.2/1.11.2/1.12
-
-https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
-
-https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
-
-https://bedrockminer.jimdo.com/modding-tutorials/ 1.7.10/1.8.9
-
-http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
-
 ### Minecraft Annotations
 https://github.com/mezz/MinecraftAnnotations/
 
@@ -155,6 +214,26 @@ public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
     }
 ```
 
+### Converting exported Techne models to other formats
+https://gist.github.com/ljfa-ag/cd137f5c741a0cfb0ead
+
+### Gradle sample minecraft block
+```gradle
+minecraft {
+    version = "1.12.2-14.23.1.2611"
+    runDir = "run"
+    mappings = "snapshot_20180220"
+    useDepAts = true
+    makeObfSourceJar = false
+}
+```
+
+### Forge info by version
+![](https://cdn.discordapp.com/attachments/179315645005955072/413721810241323018/unknown.png)
+
+### Bitshifting tutorial
+http://latmod.com/tutorials/bitshifting/
+
 ### JSon linter
 http://jsonlint.com/
 
@@ -171,8 +250,19 @@ https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
 ### Condition factories registered from JSON 
 https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json#L8-L10
 
-### Detection system for MCreator mods
-http://mdetector.thedragonteam.net/test.html
+### Getting a fluid texture
+```java
+TextureAtlasSprite texture = Minecraft.getMinecraft().getTextureMapBlocks().getAtlasSprite(fluid.getFluid().getFlowing(fluid).toString());
+```
+
+### Preventing remote movement on entities
+ set "PreventRemoteMovement" to true on the entity data, i.e. make `item.getEntityData().getBoolean("PreventRemoteMovement")`return true, and magnets should not grab things from your plates. That was agreed upon somewhere in a github issue on ImmEng, and is supported by most mods with magnets
+
+### 1.11 to 1.12 class name changes
+https://github.com/ModCoderPack/MCPBot-Issues/wiki/1.11.0-to-1.12.0-migration
+
+### Config system exemple
+https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/java/net/minecraftforge/debug/ConfigTest.java
 
 ### Mob stuff
 ###### AI Task
@@ -214,6 +304,9 @@ public class MobOreDrops {
 }
 ```
 
+### .gitignores for everything
+https://www.gitignore.io/ 
+
 ### Useful ASM coremodding ressources
 https://www.youtube.com/watch?v=FgaxnpD-DC4/
 
@@ -224,11 +317,20 @@ https://www.youtube.com/watch?v=75_rJYLj5AU/
 ### Polygon function
 https://stackoverflow.com/questions/8721406/how-to-determine-if-a-point-is-inside-a-2d-convex-polygon#8721483
 
-### Animations in ressource packs
+#Checking a command sender permission level
+```java
+sender.canUseCommand(3, this.getName())
+```
+You can also override `getRequiredPermissionLevel` if you want to set the permission required to run the command
+
+### Animations in resource packs
 http://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties
 
 ### Rendering a basic block
 http://pastebin.com/N1YRRcm7
+
+### OpenGL11 Rendering Tutorial
+http://www.glprogramming.com/red/index.html
 
 ### Neighbor block caching for stuff like context-sensitive render states
 ```java
@@ -276,16 +378,9 @@ Usage:
 NeighborCache<IBlockState> stateCache = new NeighborCache<>(pos, (p) -> world.getBlockState(p));
 NeighborCache<TileEntity> tileCache = new NeighborCache<>(pos, (p) -> world.getTileEntity(p));
 ```
-### Rendering Handler
+### Rendering Handler registry
 ```java
-RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, new IRenderFactory<GolemBase>() 
-{
-    @Override
-    public Render<? super GolemBase> createRenderFor(RenderManager manager) 
-    {
-        return new RenderGolem(manager);
-    }
-});
+RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, RenderGolem::new);
 ```
 ### Models 1.7.2
 http://jabelarminecraft.blogspot.com/p/complex-entity-models-including.html
@@ -305,3 +400,7 @@ http://greyminecraftcoder.blogspot.co.uk/2015/03/troubleshooting-block-and-item-
 ### Making a flying armor
 http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2678865-help-how-to-apply-flight-to-an-armor-in-eclipse-1  
 more concise but you need to know more Java: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2650028-trying-to-make-an-item-that-allows-flight#c7
+
+### Coding practice
+https://www.hackerrank.com/
+
