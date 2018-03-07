@@ -224,7 +224,7 @@ https://www.youtube.com/watch?v=75_rJYLj5AU/
 ### Polygon function
 https://stackoverflow.com/questions/8721406/how-to-determine-if-a-point-is-inside-a-2d-convex-polygon#8721483
 
-### Animations in ressource packs
+### Animations in resource packs
 http://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties
 
 ### Rendering a basic block
