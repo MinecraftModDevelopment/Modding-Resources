@@ -38,6 +38,51 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
 
 The oracle docs can be technical at times, if you're an absolute beginner, you might find something like CodeAcademy to be more helpful.
 
+### Gradle settings for minecraft
+
+Where things go:
+The block itself goes in the minecraft block.
+the respective vars get defined in your gradle.properties, I suggest NOT putting the ones starting mc_ in your per project gradle.properties, do it in your user gradle.properties instead (That's the one in .gradle).
+
+What it does:
+1) Lets you define how much ram is given to the client or server when they're run with gradlew runClient/runServer.
+2) Lets you enter your username/password and/or UUID when in dev mode.
+3) Adds "nogui" when running runServer (Comment out/remove if not wanted).
+
+
+```gradle
+  if (project.hasProperty('mc_username')) {
+    clientRunArgs += ['--username', project.mc_username]
+    if (project.hasProperty('mc_password')) {
+      clientRunArgs += ['--password', project.mc_password]
+    }
+  }
+  if (project.hasProperty('mc_uuid')) {
+    clientRunArgs += ['--uuid', project.mc_uuid]
+  }
+
+  // disable server gui
+  serverRunArgs += 'nogui'
+
+  // skip the screen to confirm that you want to load a world with missing registry entries
+  serverJvmArgs += '-Dfml.doNotBackup=true'
+  clientJvmArgs += '-Dfml.doNotBackup=true'
+
+  // skip having to confirm on server
+  serverJvmArgs += '-Dfml.queryResult=confirm'
+
+  //skip jansi warnings in the log
+  serverJvmArgs += '-Dlog4j.skipJansi=true'
+  clientJvmArgs += '-Dlog4j.skipJansi=true'
+
+  if (project.hasProperty('client_args')) {
+    clientJvmArgs += project.client_args
+  }
+  if (project.hasProperty('server_args')) {
+    serverJvmArgs += project.server_args
+  }
+```
+
 ### Git basics
 ###### Basic challenges to learn Git
 https://try.github.io/levels/1/challenges/1
