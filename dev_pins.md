@@ -83,6 +83,20 @@ What it does:
   }
 ```
 
+### Gradle setting for missing regsitry entries
+```gradle
+serverJvmArgs += "-Dfml.doNotBackup=true"
+clientJvmArgs += "-Dfml.doNotBackup=true"
+
+serverJvmArgs += "-Dfml.queryResult=confirm"
+```
+first ones skip the screen to confirm that you want to load a world with missing registry entries, last one does this for the server
+
+### Argument to remove "Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream" 
+```gradle
+-Dlog4j.skipJansi=true
+```
+
 ### Git basics
 ###### Basic challenges to learn Git
 https://try.github.io/levels/1/challenges/1
@@ -200,6 +214,26 @@ public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
     }
 ```
 
+### Converting exported Techne models to other formats
+https://gist.github.com/ljfa-ag/cd137f5c741a0cfb0ead
+
+### Gradle sample minecraft block
+```gradle
+minecraft {
+    version = "1.12.2-14.23.1.2611"
+    runDir = "run"
+    mappings = "snapshot_20180220"
+    useDepAts = true
+    makeObfSourceJar = false
+}
+```
+
+### Forge info by version
+![](https://cdn.discordapp.com/attachments/179315645005955072/413721810241323018/unknown.png)
+
+### Bitshifting tutorial
+http://latmod.com/tutorials/bitshifting/
+
 ### JSon linter
 http://jsonlint.com/
 
@@ -216,8 +250,19 @@ https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
 ### Condition factories registered from JSON 
 https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json#L8-L10
 
+### Getting a fluid texture
+```java
+TextureAtlasSprite texture = Minecraft.getMinecraft().getTextureMapBlocks().getAtlasSprite(fluid.getFluid().getFlowing(fluid).toString());
+```
+
 ### Detection system for MCreator mods
 http://mdetector.thedragonteam.net/test.html
+
+### 1.11 to 1.12 class name changes
+https://github.com/ModCoderPack/MCPBot-Issues/wiki/1.11.0-to-1.12.0-migration
+
+### Config system exemple
+https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/java/net/minecraftforge/debug/ConfigTest.java
 
 ### Mob stuff
 ###### AI Task
@@ -259,6 +304,9 @@ public class MobOreDrops {
 }
 ```
 
+### .gitignores for everything
+https://www.gitignore.io/ 
+
 ### Useful ASM coremodding ressources
 https://www.youtube.com/watch?v=FgaxnpD-DC4/
 
@@ -269,11 +317,20 @@ https://www.youtube.com/watch?v=75_rJYLj5AU/
 ### Polygon function
 https://stackoverflow.com/questions/8721406/how-to-determine-if-a-point-is-inside-a-2d-convex-polygon#8721483
 
+#Checking a command sender permission level
+```java
+sender.canUseCommand(3, this.getName())
+```
+You can also override `getRequiredPermissionLevel` if you want to set the permission required to run the command
+
 ### Animations in resource packs
 http://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties
 
 ### Rendering a basic block
 http://pastebin.com/N1YRRcm7
+
+### OpenGL11 Rendering Tutorial
+http://www.glprogramming.com/red/index.html
 
 ### Neighbor block caching for stuff like context-sensitive render states
 ```java
@@ -350,3 +407,7 @@ http://greyminecraftcoder.blogspot.co.uk/2015/03/troubleshooting-block-and-item-
 ### Making a flying armor
 http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2678865-help-how-to-apply-flight-to-an-armor-in-eclipse-1  
 more concise but you need to know more Java: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2650028-trying-to-make-an-item-that-allows-flight#c7
+
+### Coding practice
+https://www.hackerrank.com/
+
