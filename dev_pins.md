@@ -375,16 +375,9 @@ Usage:
 NeighborCache<IBlockState> stateCache = new NeighborCache<>(pos, (p) -> world.getBlockState(p));
 NeighborCache<TileEntity> tileCache = new NeighborCache<>(pos, (p) -> world.getTileEntity(p));
 ```
-### Rendering Handler
+### Rendering Handler registry
 ```java
-RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, new IRenderFactory<GolemBase>() 
-{
-    @Override
-    public Render<? super GolemBase> createRenderFor(RenderManager manager) 
-    {
-        return new RenderGolem(manager);
-    }
-});
+RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, RenderGolem::new);
 ```
 ### Models 1.7.2
 http://jabelarminecraft.blogspot.com/p/complex-entity-models-including.html
