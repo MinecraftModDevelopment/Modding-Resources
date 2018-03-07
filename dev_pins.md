@@ -10,6 +10,23 @@ https://gist.github.com/williewillus/353c872bcf1a6ace9921189f6100d09a
 ### List of mod ideas
 https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/
 
+### Mod Tutorials/Guides
+https://tutorials.darkhax.net/pages/tutorials/
+
+https://wiki.mcjty.eu/modding/index.php?title=Main_Page - 1.10.2/1.11/1.12 Documentation 
+
+https://github.com/McJty/ModTutorials/ - 1.8.9/1.9.4/1.10.2/1.11/1.12
+
+https://shadowfacts.net/tutorials/forge-modding-112/ - 1.10.2/1.11.2/1.12
+
+https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
+
+https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
+
+https://bedrockminer.jimdo.com/modding-tutorials/ 1.7.10/1.8.9
+
+http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
+
 ### Java for complete beginners
 https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411
 
@@ -109,23 +126,6 @@ For live resource reloading, build your project first, then press F3+T in-game.
 
 ### Gradle generation of forge javadocs
 http://maven.thiakil.com/forge-1.12-javadoc/
-
-### Mod Tutorials/Guides
-https://tutorials.darkhax.net/pages/tutorials/
-
-https://wiki.mcjty.eu/modding/index.php?title=Main_Page - 1.10.2/1.11/1.12 Documentation 
-
-https://github.com/McJty/ModTutorials/ - 1.8.9/1.9.4/1.10.2/1.11/1.12
-
-https://shadowfacts.net/tutorials/forge-modding-112/ - 1.10.2/1.11.2/1.12
-
-https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
-
-https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
-
-https://bedrockminer.jimdo.com/modding-tutorials/ 1.7.10/1.8.9
-
-http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
 
 ### Minecraft Annotations
 https://github.com/mezz/MinecraftAnnotations/
