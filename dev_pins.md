@@ -83,6 +83,11 @@ What it does:
   }
 ```
 
+### Item Rendering with GL
+With the release of Forge 14.23.2.2638, a proper way to render items with GL was implemented. Using this system is much simpler than the old system, which required a TileEntity, and does not allow access to the ItemStack.
+
+[More information and implementation here](https://gist.github.com/Shadows-of-Fire/aadd7a27d7df1c2f43eb226ea3b2dcdd)
+
 ### Gradle setting for missing regsitry entries
 ```gradle
 serverJvmArgs += "-Dfml.doNotBackup=true"
