@@ -160,7 +160,7 @@ dependencies {
     deobfCompile "<curse-slug>:<jarname>:<version>"
 }
 ```
-Note that version needed for the `deobfCompile` relies on the jarname being in the format: `modid-mcversion-modversion.jar`. This is not always the case, meaning that it can be difficult to figure out the correct infomation to add. There is a tool that figures out this infomation for you:
+Note that version and jarname needed for the `deobfCompile` relies on the jarname being in the format: `modid-mcversion-modversion.jar`. This is not always the case, meaning that it can be difficult to figure out the correct infomation to add. There is a tool that figures out this infomation for you:
 https://github.com/Wyn-Price/CurseForge-Maven-Helper/
 ### A way to check if you are running in a dev environment
 ```java
