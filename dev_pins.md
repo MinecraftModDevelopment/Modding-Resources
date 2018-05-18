@@ -339,49 +339,49 @@ http://www.glprogramming.com/red/index.html
 
 ### Neighbor block caching for stuff like context-sensitive render states
 ```java
-public class NeighborCache<T> {
-    
-    Map<BlockPos, T> cache = new HashMap<>();
-    Function<BlockPos, T> generator;
-    BlockPos basePos;
-    
-    public NeighborCache(BlockPos pos, Function<BlockPos, T> generator) {
-        this.basePos = pos;
+public final class NeighborCache <T> {
+    private final BlockPos origin;
+    private final Map<BlockPos, T> cache = new HashMap<>();
+    private final Function<BlockPos, T> generator;
+
+    public NeighborCache(BlockPos origin, Function<BlockPos, T> generator) {
+        this.origin = origin.toImmutable();
         this.generator = generator;
     }
-    
+
+    public NeighborCache(Function<BlockPos, T> generator) {
+        this(BlockPos.ORIGIN, generator);
+    }
+
     public T get(int x, int y, int z) {
-        return get(new BlockPos(x,y,z));
+        return get(new BlockPos(x, y, z));
     }
-    
-    public T get(BlockPos relPos) {
-        return getOrPut(relPos);
+
+    public T get(BlockPos offset) {
+        return computeIfAbsent(offset);
     }
-    
-    public T get(EnumFacing dir) {
-        return get(BlockPos.ORIGIN.offset(dir));
+
+    public T get(EnumFacing offset) {
+        return get(BlockPos.ORIGIN.offset(offset));
     }
-    
-    public T get(EnumFacing dir1, EnumFacing dir2) {
-        return get(BlockPos.ORIGIN.offset(dir1).offset(dir2));
+
+    public T get(EnumFacing offset1, EnumFacing offset2) {
+        return get(BlockPos.ORIGIN.offset(offset1).offset(offset2));
     }
-    
-    public T get(EnumFacing dir1, EnumFacing dir2, EnumFacing dir3) {
-        return get(BlockPos.ORIGIN.offset(dir1).offset(dir2).offset(dir3));
+
+    public T get(EnumFacing offset1, EnumFacing offset2, EnumFacing offset3) {
+        return get(BlockPos.ORIGIN.offset(offset1).offset(offset2).offset(offset3));
     }
-    
-    private T getOrPut(BlockPos relPos) {
-        if(!cache.containsKey(relPos))
-            cache.put(relPos, generator.apply(relPos.add(basePos)));
-        return cache.get(relPos);
+
+    private T computeIfAbsent(BlockPos pos) {
+        return cache.computeIfAbsent(pos, it -> generator.apply(it.add(origin)));
     }
-    
 }
 ```
 Usage:
 ```java
-NeighborCache<IBlockState> stateCache = new NeighborCache<>(pos, (p) -> world.getBlockState(p));
-NeighborCache<TileEntity> tileCache = new NeighborCache<>(pos, (p) -> world.getTileEntity(p));
+NeighborCache<IBlockState> stateCache = new NeighborCache<>(pos, world::getBlockState);
+NeighborCache<TileEntity> tileCache = new NeighborCache<>(pos, world::getTileEntity);
 ```
 ### Rendering Handler registry
 ```java
