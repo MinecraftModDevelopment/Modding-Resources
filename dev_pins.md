@@ -257,7 +257,7 @@ https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/
 
 ### Getting a fluid texture
 ```java
-TextureAtlasSprite texture = Minecraft.getMinecraft().getTextureMapBlocks().getAtlasSprite(fluid.getFluid().getFlowing(fluid).toString());
+TextureAtlasSprite texture = ModelLoader.defaultTextureGetter().apply(fluid.getFluid().getFlowing(fluid));
 ```
 
 ### Preventing remote movement on entities
