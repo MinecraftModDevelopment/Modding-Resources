@@ -235,7 +235,7 @@ minecraft {
 ```
 
 ### Forge info by version
-![](https://cdn.discordapp.com/attachments/179315645005955072/413721810241323018/unknown.png)
+![](https://github.com/MinecraftModDevelopment/Modding-Resources/raw/master/Version%20Info.png)
 
 ### Bitshifting tutorial
 http://latmod.com/tutorials/bitshifting/
