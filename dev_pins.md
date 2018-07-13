@@ -88,15 +88,6 @@ With the release of Forge 14.23.2.2638, a proper way to render items with GL was
 
 [More information and implementation here](https://gist.github.com/Shadows-of-Fire/aadd7a27d7df1c2f43eb226ea3b2dcdd)
 
-### Gradle setting for missing regsitry entries
-```gradle
-serverJvmArgs += "-Dfml.doNotBackup=true"
-clientJvmArgs += "-Dfml.doNotBackup=true"
-
-serverJvmArgs += "-Dfml.queryResult=confirm"
-```
-first ones skip the screen to confirm that you want to load a world with missing registry entries, last one does this for the server
-
 ### Argument to remove "Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream" 
 ```gradle
 -Dlog4j.skipJansi=true
