@@ -206,6 +206,10 @@ Allows you to use JSONs for smelting recipes on 1.12
 The JSONs follow the exact same format as vanilla 1.13 ones.
 https://gist.github.com/Bluexin/c4960cf81b7720afbda0b1fbcfdd0450
 
+### Recipe conditions
+Great resource for all forms of recipe json conditions
+https://github.com/Vazkii/Botania/tree/master/src/main/resources/assets/botania/recipes
+
 ### Ore Dict match
 ```java
 public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
