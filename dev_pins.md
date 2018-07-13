@@ -198,6 +198,11 @@ https://redd.it/5mxn51/
 ### Why are 32 x 32 textures bad?
 https://latmod.com/moddingtutorials/textures32x/
 
+### Smelting JSON Recipe 1.12
+Allows you to use JSONs for smelting recipes on 1.12
+The JSONs follow the exact same format as vanilla 1.13 ones.
+https://gist.github.com/Bluexin/c4960cf81b7720afbda0b1fbcfdd0450
+
 ### Ore Dict match
 ```java
 public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
