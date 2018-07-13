@@ -195,6 +195,9 @@ https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e/
 ### Information on the vanilla debug profiler
 https://redd.it/5mxn51/
 
+### Why are 32 x 32 textures bad?
+https://latmod.com/moddingtutorials/textures32x/
+
 ### Ore Dict match
 ```java
 public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
