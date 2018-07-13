@@ -216,17 +216,6 @@ public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
 ### Converting exported Techne models to other formats
 https://gist.github.com/ljfa-ag/cd137f5c741a0cfb0ead
 
-### Gradle sample minecraft block
-```gradle
-minecraft {
-    version = "1.12.2-14.23.1.2611"
-    runDir = "run"
-    mappings = "snapshot_20180220"
-    useDepAts = true
-    makeObfSourceJar = false
-}
-```
-
 ### Forge info by version
 ![](https://github.com/MinecraftModDevelopment/Modding-Resources/raw/master/Version%20Info.png)
 
