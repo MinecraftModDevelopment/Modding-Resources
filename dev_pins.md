@@ -83,15 +83,32 @@ What it does:
   }
 ```
 
-### Item Rendering with GL
-With the release of Forge 14.23.2.2638, a proper way to render items with GL was implemented. Using this system is much simpler than the old system, which required a TileEntity, and does not allow access to the ItemStack.
-
-[More information and implementation here](https://gist.github.com/Shadows-of-Fire/aadd7a27d7df1c2f43eb226ea3b2dcdd)
-
 ### Argument to remove "Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream" 
 ```gradle
 -Dlog4j.skipJansi=true
 ```
+
+### CurseForge maven endpoint
+```Gradle
+repositories {
+maven {
+        //fallback for almost everything, this is CurseForge :P
+        name = "CurseForge"
+        url = "https://minecraft.curseforge.com/api/maven/"
+    }
+}
+
+. . .
+
+dependencies {
+    deobfCompile "<curse-slug>:<jarname>:<version>"
+}
+```
+
+### Item Rendering with GL
+With the release of Forge 14.23.2.2638, a proper way to render items with GL was implemented. Using this system is much simpler than the old system, which required a TileEntity, and does not allow access to the ItemStack.
+
+[More information and implementation here](https://gist.github.com/Shadows-of-Fire/aadd7a27d7df1c2f43eb226ea3b2dcdd)
 
 ### Git basics
 ###### Basic challenges to learn Git
@@ -135,22 +152,7 @@ https://help.github.com/articles/remove-sensitive-data/
 ### MinecraftForge documentation
 https://mcforge.readthedocs.io/en/latest/
 
-### CurseForge maven endpoint
-```Gradle
-repositories {
-maven {
-        //fallback for almost everything, this is CurseForge :P
-        name = "CurseForge"
-        url = "https://minecraft.curseforge.com/api/maven/"
-    }
-}
 
-. . .
-
-dependencies {
-    deobfCompile "<curse-slug>:<jarname>:<version>"
-}
-```
 Note that version and jarname needed for the `deobfCompile` relies on the jarname being in the format: `modid-mcversion-modversion.jar`. This is not always the case, meaning that it can be difficult to figure out the correct infomation to add. There is a tool that figures out this infomation for you:
 https://github.com/Wyn-Price/CurseForge-Maven-Helper/
 ### A way to check if you are running in a dev environment
