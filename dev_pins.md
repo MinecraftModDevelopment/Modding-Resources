@@ -170,6 +170,9 @@ http://bspk.rs/MC/MCPMappingViewer/index.html
 ### Minecraft dev IDEA plugin
 https://plugins.jetbrains.com/plugin/8327/
 
+### Java naming conventions
+http://www.oracle.com/technetwork/java/codeconventions-135099.html
+
 ### Minecraft energy types conversion rates
 https://gist.github.com/DeflatedPickle/403e1eb0bb0bed7f2509142e63630726/
 
