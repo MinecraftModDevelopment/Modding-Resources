@@ -105,6 +105,26 @@ dependencies {
 }
 ```
 
+### Adding Dependencies to your @Mod annotation
+Adding Dependencies to your @Mod annotation is as simple as setting the dependencies field to this:
+dependencies="required-after:forge@[minVersion,maxVersion)"
+
+multiple dependencies are separated using ;, min and max version are optional. [, ] = included, (,) = excluded versions. you can also leave the min or max fields empty or omit the whole version range.
+keywords
+ after = load this mod after the one specified, if present
+before = load this mod before the one specified, if present.
+
+keywords can be prefixed with required-, which will force the specified modid to be present.
+
+for more info on the version ranges see https://docs.oracle.com/middleware/1212/core/MAVEN/maven_version.htm#MAVEN402
+
+### Version ranges
+Format used in version ranges strings (for dependencies for example)
+https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
+
+### Example buildscript for using Forge's ContainedDeps system
+https://github.com/JamiesWhiteShirt/clothesline/blob/master/build.gradle
+
 ### Item Rendering with GL
 With the release of Forge 14.23.2.2638, a proper way to render items with GL was implemented. Using this system is much simpler than the old system, which required a TileEntity, and does not allow access to the ItemStack.
 
@@ -162,6 +182,12 @@ public static boolean isDevEnv() {
 }
 ```
 
+### Tool to help work out Curseforge's Maven.
+ Works out dependencies and gives you what to put in your build.gradle: 
+ Source: https://github.com/Wyn-Price/CurseForge-Maven-Helper/
+ 
+ Download the latest version: https://github.com/Wyn-Price/CurseForge-Maven-Helper/releases/latest
+
 ### MCP mapping tools
 http://mcp.thiakil.com/index.html
 
@@ -169,6 +195,8 @@ http://bspk.rs/MC/MCPMappingViewer/index.html
 
 ### Minecraft dev IDEA plugin
 https://plugins.jetbrains.com/plugin/8327/
+
+Heads up: an update changed the default inspection settings to disable the Minecraft Forge inspections. If you somehow reset your settings then you will lose the inspections. If you use these inspections, you can enable them by going to Settings > Editor > Inspections, then finding the Minecraft Forge group and enabling the ones you were using.
 
 ### Java naming conventions
 http://www.oracle.com/technetwork/java/codeconventions-135099.html
@@ -191,6 +219,9 @@ http://maven.thiakil.com/forge-1.12-javadoc/
 ### Minecraft Annotations
 https://github.com/mezz/MinecraftAnnotations/
 
+### Example of how to register a data fixer
+ to migrate your tile entity to a new ID, in case you have registered it in the wrong domain and are seeing the error now: https://github.com/TeamTwilight/twilightforest/blob/3d141a2bfb312e1d4292ab1ebc21880703945ff7/src/main/java/twilightforest/TwilightForestMod.java#L134-L196
+
 ### ObjectHolders and registry class
 Simple explanation and exemple of an object holder and registry class
 https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e/
@@ -205,6 +236,9 @@ https://latmod.com/moddingtutorials/textures32x/
 Allows you to use JSONs for smelting recipes on 1.12
 The JSONs follow the exact same format as vanilla 1.13 ones.
 https://gist.github.com/Bluexin/c4960cf81b7720afbda0b1fbcfdd0450
+
+### Naming assets
+names in mod assets *MUST* be in lower case
 
 ### Recipe conditions
 Great resource for all forms of recipe json conditions
@@ -227,6 +261,10 @@ public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
         return false;
     }
 ```
+
+### @SideOnly annotation
+Gist that glosses over a lot of the @SideOnly annotation system.
+https://gist.github.com/TehNut/4e7b60e0a43c39a709b8b59ae48cb493
 
 ### Converting exported Techne models to other formats
 https://gist.github.com/ljfa-ag/cd137f5c741a0cfb0ead
@@ -257,6 +295,15 @@ https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/
 ```java
 TextureAtlasSprite texture = ModelLoader.defaultTextureGetter().apply(fluid.getFluid().getFlowing(fluid));
 ```
+
+### Preventing specific entities from interacting with your fluid
+```java
+public Boolean isEntityInsideMaterial(IBlockAccess world, BlockPos blockpos, IBlockState iblockstate, Entity entity, double yToTest, Material materialIn, boolean testingHead) {
+        //In this example, prevents Players from interacting with the fluid
+        return !(entity instanceof EntityPlayer);
+    }
+```
+You can override this method in your Fluid's Block class to make it so that specific entites don't interact with your fluid. The above example makes it so that players do not interact with the fluid, but other entities will continue to do so. You may need additional checks to ensure that other entities are actually inside the fluid, because the example above as written will always return true for entites other than the player, even if they are not actually inside the fluid.
 
 ### Preventing remote movement on entities
  set "PreventRemoteMovement" to true on the entity data, i.e. make `item.getEntityData().getBoolean("PreventRemoteMovement")`return true, and magnets should not grab things from your plates. That was agreed upon somewhere in a github issue on ImmEng, and is supported by most mods with magnets
@@ -331,6 +378,15 @@ http://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Prop
 
 ### Rendering a basic block
 http://pastebin.com/N1YRRcm7
+
+### isOpaqueCube, isNormalCube, isFullCube ?
+isOpaqueCube - should be false if your block isn't a full 1x1x1 cube or has transparent/cutout texture, otherwise your blocks surroundings will look bad
+
+isNormalCube - you don't need to override that. Calls isFullCube.
+
+isFullCube - same thing really, but it handles game logic like suffocation, pushing you out of blocks, and also other render stuff like lighting
+
+basically, these method names (isBlockNormalCube, isNormalCube, isFullCube, isFullBlock, isOpaqueCube) are confusing. Just override these two and you should be fine
 
 ### OpenGL11 Rendering Tutorial
 http://www.glprogramming.com/red/index.html
