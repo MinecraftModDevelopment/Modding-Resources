@@ -23,7 +23,7 @@ https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
 
 https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
 
-https://bedrockminer.jimdo.com/modding-tutorials/ 1.7.10/1.8.9
+https://web.archive.org/web/20161119034729/http://bedrockminer.jimdo.com:80/modding-tutorials 1.7.10/1.8.9
 
 http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
 
@@ -268,7 +268,7 @@ TextureAtlasSprite texture = ModelLoader.defaultTextureGetter().apply(fluid.getF
 https://github.com/ModCoderPack/MCPBot-Issues/wiki/1.11.0-to-1.12.0-migration
 
 ### Config system exemple
-https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/java/net/minecraftforge/debug/ConfigTest.java
+https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/java/net/minecraftforge/test/ConfigurationTest.java
 
 ### Mob stuff
 ###### AI Task
