@@ -267,9 +267,6 @@ TextureAtlasSprite texture = ModelLoader.defaultTextureGetter().apply(fluid.getF
 ### 1.11 to 1.12 class name changes
 https://github.com/ModCoderPack/MCPBot-Issues/wiki/1.11.0-to-1.12.0-migration
 
-### Config system exemple
-https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/java/net/minecraftforge/test/ConfigurationTest.java
-
 ### Mob stuff
 ###### AI Task
 The red task will run when the entity#getAttackTarget != null. And as long as the target is null, the green tasks will run in order to set an attack target.
