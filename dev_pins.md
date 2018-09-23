@@ -457,3 +457,6 @@ more concise but you need to know more Java: http://www.minecraftforum.net/forum
 ### Coding practice
 https://www.hackerrank.com/
 
+### Troubleshooting Eclipse development with other mods
+https://github.com/MinecraftForge/ForgeGradle/issues/519#issuecomment-423849322
+
