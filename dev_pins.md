@@ -4,6 +4,8 @@ CODE HERE
 \```  
 Full formatting guide here https://support.discordapp.com/hc/en-us/articles/210298617
 
+
+
 ### 1.13 Changes/Primer
 https://gist.github.com/williewillus/353c872bcf1a6ace9921189f6100d09a
 
@@ -187,7 +189,65 @@ public static boolean isDevEnv() {
  Source: https://github.com/Wyn-Price/CurseForge-Maven-Helper/
  
  Download the latest version: https://github.com/Wyn-Price/CurseForge-Maven-Helper/releases/latest
+ 
+### Setting up a modding env. in Intellij
+https://streamable.com/hlxy0
 
+### Why you should never use OpenGL directly or GlStateManager.pushAttrib/popAttrib
+https://gist.github.com/JamiesWhiteShirt/ff2521936a83ebc10fd6893e206a6770
+
+### Updating gradle version to 4.9
+```gradlew wrapper --gradle-version 4.9```
+
+### Means of integration with other mods
+https://gist.github.com/strikerrocker/873f81e686f391662f39b83efee136ff
+
+### Converting lang from <1.13 to 1.13.
+https://github.com/ichttt/MCLang2Json
+`marco@invader ~ % sed -Ee '1i {' -e '$a }' -e 's|^tile\.|block.|g;s|\.name=|=|g;s|["\]|\\\0|g;s|^([^=]*)?=(.*)$|  "\1": "\2",|g;$ s|,$||g'
+some.key=abc;',\ 238"";'2                       `
+
+result
+`{
+  "some.key": "abc;',\\ 238\"\";'2"
+}`
+
+### Why does't my Event Handler Work!!??
+https://cdn.discordapp.com/attachments/179315645005955072/475010493824892948/unknown.png
+
+## Registering using @ObjectHolder annotation on class
+```java
+@GameRegistry.ObjectHolder(WingsMod.ID)
+public final class WingsItems {
+    private WingsItems() {}
+
+    public static final Item FAIRY_DUST = Items.AIR;
+
+    public static final Item AMETHYST = Items.AIR;
+
+    public static final Item BAT_BLOOD = Items.AIR;
+```
+Those field names are the registry names
+ObjectHolder on class has forge looks at fields for reference types that are a registry type
+
+### Tool doing remappings 
+ https://github.com/MinecraftForge/Remapper
+ 
+### 1.12 snapshots to stable remappings
+https://gist.github.com/strikerrocker/1e31558b35dc65c49fb56fddca9fcf5d
+
+### Using the debugger
+Intellij: 
+https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html
+https://www.jetbrains.com/help/idea/debugging-code.html
+
+Eclipse:
+http://www.vogella.com/tutorials/EclipseDebugging/article.html
+https://www.eclipse.org/community/eclipse_newsletter/2017/june/article1.php
+
+### Querying MCP mappings and its history
+If you need to query MCP names or their history, or help give a name to something that has not been named yet, you may want to use the bot they have in this server. Read their readme and use !help to learn more (and keep the bot spam in the dedicated channel.) -- https://discord.gg/h4whGT9
+ 
 ### MCP mapping tools
 http://mcp.thiakil.com/index.html
 
