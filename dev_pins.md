@@ -90,7 +90,8 @@ What it does:
 -Dlog4j.skipJansi=true
 ```
 
-### CurseForge maven endpoint
+### CurseForge 
+endpoint
 ```Gradle
 repositories {
 maven {
@@ -185,10 +186,9 @@ public static boolean isDevEnv() {
 ```
 
 ### Tool to help work out Curseforge's Maven.
- Works out dependencies and gives you what to put in your build.gradle: 
- Source: https://github.com/Wyn-Price/CurseForge-Maven-Helper/
- 
- Download the latest version: https://github.com/Wyn-Price/CurseForge-Maven-Helper/releases/latest
+ Works out dependencies and gives you what to put in your build.gradle
+ Wyn-Price's client side tool [releases](https://github.com/Wyn-Price/CurseForge-Maven-Helper/releases/latest) [source](https://github.com/Wyn-Price/CurseForge-Maven-Helper/)
+ Darkhax's FireFox extension [releases](https://addons.mozilla.org/en-US/firefox/addon/bettercf)
  
 ### Setting up a modding env. in Intellij
 https://streamable.com/hlxy0
