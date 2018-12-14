@@ -348,6 +348,9 @@ https://crafting.thedestruc7i0n.ca/
 ###### Converting old recipe code into json
 https://gist.github.com/williewillus/a1a899ce5b0f0ba099078d46ae3dae6e
 
+### Lang to Json converter
+https://tterrag.com/lang2json/
+
 ### Condition factories registered from JSON 
 https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json#L8-L10
 
@@ -519,4 +522,3 @@ https://www.hackerrank.com/
 
 ### Troubleshooting Eclipse development with other mods
 https://github.com/MinecraftForge/ForgeGradle/issues/519#issuecomment-423849322
-
