@@ -186,8 +186,8 @@ public static boolean isDevEnv() {
 ```
 
 ### Tool to help work out Curseforge's Maven.
- Works out dependencies and gives you what to put in your build.gradle
- Wyn-Price's client side tool [releases](https://github.com/Wyn-Price/CurseForge-Maven-Helper/releases/latest) [source](https://github.com/Wyn-Price/CurseForge-Maven-Helper/)
+ Works out dependencies and gives you what to put in your build.gradle    
+ Wyn-Price's client side tool [releases](https://github.com/Wyn-Price/CurseForge-Maven-Helper/releases/latest) [source](https://github.com/Wyn-Price/CurseForge-Maven-Helper/)    
  Darkhax's FireFox extension [releases](https://addons.mozilla.org/en-US/firefox/addon/bettercf)
  
 ### Setting up a modding env. in Intellij
