@@ -13,7 +13,7 @@ https://gist.github.com/williewillus/353c872bcf1a6ace9921189f6100d09a
 https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/
 
 ### Mod Tutorials/Guides
-https://tutorials.darkhax.net/pages/tutorials/
+https://darkhax.net/tag/mc-mod-tutorial?MMDDevPins
 
 https://wiki.mcjty.eu/modding/index.php?title=Main_Page - 1.10.2/1.11/1.12 Documentation 
 
