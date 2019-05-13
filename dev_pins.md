@@ -522,3 +522,15 @@ https://www.hackerrank.com/
 
 ### Troubleshooting Eclipse development with other mods
 https://github.com/MinecraftForge/ForgeGradle/issues/519#issuecomment-423849322
+
+### Collection of Useful Gradle Scripts
+https://github.com/MinecraftModDevelopment/Gradle-Collection
+
+### Version Support Coverage by Author
+https://docs.google.com/spreadsheets/d/1gQY1EzYwOXpfehluqujwh_32regA798RHmdlgG6rdKU/edit#gid=0
+
+### Curse Profit Calculator 
+https://cobalt.darkhax.net/curse-profit-calc/
+
+### Curse Author Statistics (Modmuss's CurseTracker)
+https://cursetracker.modmuss50.me/
