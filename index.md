@@ -70,7 +70,7 @@ This page serves as a central index for the various resources we share and provi
 - [**TortoiseGit**](https://tortoisegit.org/) - A relatively minimalistic windows interface for Git.
 
 ## Community Discords
-- [**BlameJared**](https://discord.blamejared.com)) - You can go here for help with CraftTweaker, Prestige, and other mods made by Jared.
+- [**BlameJared**](https://discord.blamejared.com) - You can go here for help with CraftTweaker, Prestige, and other mods made by Jared.
 - [**Mezz's Place**](https://discord.gg/EevEdSG) - You can go here for help with JEI, Forestry, and other mods made by Mezz.
 - [**Darkhax's Home**](https://discord.darkhax.net) - You can go here for help with Bookshelf, GameStages, and other mods made by Darkhax.
 
