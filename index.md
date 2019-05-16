@@ -1,6 +1,6 @@
 # Resource Index
 
-This page serves as a central index for all of the resources we share and provide.
+This page serves as a central index for the various resources we share and provide. 
 
 ## Tutorials
 - [**Darkhax's Tutorials**](https://darkhax.net/tag/mc-mod-tutorial?MMDDevPins) - 1.8/1.9/1.10/1.11/1.12
@@ -70,7 +70,9 @@ This page serves as a central index for all of the resources we share and provid
 - [**TortoiseGit**](https://tortoisegit.org/) - A relatively minimalistic windows interface for Git.
 
 ## Community Discords
-- [**JEI / Mezz**](https://discord.gg/EevEdSG) - You can go here to get help with JEI and other mods made by Mezz.
+- [**BlameJared**](https://discord.blamejared.com)) - You can go here for help with CraftTweaker, Prestige, and other mods made by Jared.
+- [**Mezz's Place**](https://discord.gg/EevEdSG) - You can go here for help with JEI, Forestry, and other mods made by Mezz.
+- [**Darkhax's Home**](https://discord.darkhax.net) - You can go here for help with Bookshelf, GameStages, and other mods made by Darkhax.
 
 ## Open Source Mods
 - [**Botania**](https://github.com/Vazkii/Botania) - A very good place to learn about almost all aspects of the game.
