@@ -11,7 +11,6 @@ This page serves as a central index for all of the resources we share and provid
 - [**Wuppy's Tutorials**](http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/) - 1.3/1.4/1.5/1.6/1.7/1.8
 - [**Forge's Official Docs**](https://mcforge.readthedocs.io/en/latest/)
 - **VikeStep's ASM Guide** - [Part 1](https://www.youtube.com/watch?v=FgaxnpD-DC4) - [Part 2](https://www.youtube.com/watch?v=75_rJYLj5AU)
-- 
 
 ## Articles and Resources
 - [**List of Mod Ideas**](https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/edit) - A giant list of mod ideas you may use in your projects.
@@ -35,7 +34,7 @@ This page serves as a central index for all of the resources we share and provid
 - [**Why Doesn't My Event Handler Work!!??**](https://cdn.discordapp.com/attachments/179315645005955072/475010493824892948/unknown.png) - A simple flow chart explaining how event handlers work.
 - [**Removing Sensitive Data From Git**](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) - How to remove sensitive data from your git repo.
 - [**Learning Git**](https://try.github.io/) - A collection of resources to learn git.
-- [**Forge's contained deps example**](https://github.com/JamiesWhiteShirt/clothesline/blob/master/build.gradle - An example script that uses contained dependencies.
+- [**Forge's contained deps example**](https://github.com/JamiesWhiteShirt/clothesline/blob/master/build.gradle) - An example script that uses contained dependencies.
 - [**Troubleshooting Json Models**](https://greyminecraftcoder.blogspot.com/2015/03/troubleshooting-block-and-item-rendering.html) - How to debug broken Json models.
 - [**Old (1.7.2) Models**](https://jabelarminecraft.blogspot.com/p/complex-entity-models-including.html) - Documentation on the old way of doing models.
 - [**IntelliJ Debugging**](https://www.jetbrains.com/help/idea/debugging-code.html) - How to debug with the IntelliJ IDE.
