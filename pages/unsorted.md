@@ -1,18 +1,3 @@
-###### Summoning mobs
-```java
-public static void summonMobsOnBreakBlock(EntityMob mob, int loop, World worldIn, BlockPos pos) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
-
-
-            for (int i = 0; i < loop; i++) {
-                mob=mob.getClass().getConstructor(World.class).newInstance(worldIn);
-                mob.setPosition(pos.getX(), pos.getY(), pos.getZ());
-                mob.setAlwaysRenderNameTag(true);
-                worldIn.spawnEntityInWorld(mob);
-            }
-
-    }
-```
-
 ###### Mob ore drop
 ```java
 public class MobOreDrops {
