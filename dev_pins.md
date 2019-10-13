@@ -27,7 +27,7 @@ https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
 
 https://web.archive.org/web/20170629194638/https://bedrockminer.jimdo.com/modding-tutorials 1.7.10/1.8.9
 
-http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/#sthash.WeP0PGW2.dpbs/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
+http://web.archive.org/web/20181007042911/http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
 
 ### Java for complete beginners
 https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411
