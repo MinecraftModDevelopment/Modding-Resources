@@ -29,7 +29,7 @@ This page serves as a central index for the various resources we share and provi
 - [**Polygon Point Functions**](https://web.archive.org/web/20161108113341/https://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html) - An archive of some documentation on doing polygon point calculations.
 - [**Animated Texture Format**](https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties) - Documentation on the animated texture format.
 - [**Forge Recipe Factory Example**](https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json) - An example of how to add new recipe factories to forge.
-- [**Forge Info by Version**](https://raw.githubusercontent.com/MinecraftModDevelopment/Modding-Resources/master/Version%20Info.png) - A list of forge gradle versions and relevant usage info.
+- [**Forge Gradle Info by Version**](https://github.com/MinecraftModDevelopment/Modding-Resources/blob/master/version_info.md) - A list of forge gradle versions and relevant usage info.
 - [**Forge 1.12.2 JavaDocs**](http://maven.thiakil.com/forge-1.12-javadoc/) - The Forge 1.12.2 Javadocs.
 - [**Why Doesn't My Event Handler Work!!??**](https://cdn.discordapp.com/attachments/179315645005955072/475010493824892948/unknown.png) - A simple flow chart explaining how event handlers work.
 - [**Removing Sensitive Data From Git**](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) - How to remove sensitive data from your git repo.
