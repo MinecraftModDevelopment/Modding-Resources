@@ -290,7 +290,7 @@ https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e/
 https://redd.it/5mxn51/
 
 ### Why are 32 x 32 textures bad?
-https://latmod.com/moddingtutorials/textures32x/
+https://latmod.com/moddingtutorials/non-16x-textures/
 
 ### Smelting JSON Recipe 1.12
 Allows you to use JSONs for smelting recipes on 1.12
