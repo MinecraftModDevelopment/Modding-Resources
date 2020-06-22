@@ -1,7 +1,7 @@
 | Minecraft |        Forge        | Gradle Default | Gradle Maximum | ForgeGradle  | Mappings Default  | Mappings Maximum  | MCP  | Java Minimum | Java Maximum |  Promotion  | Notes |
 | --------- | ------------------- | -------------- | -------------- | ------------ | ----------------- | ----------------- | ---- | ------------ | ------------ | ----------- | ----- |
 | 1.6.4     | 9.11.1.964          | 1.8            | 2.8            | 1.0-SNAPSHOT | N/A               | N/A               | 8.11 | 6            | 8            |             | Requires Java 7 to setupDecompWorkspace |
-| 1.6.4     | 9.11.1.966          | N/A            | N/A            | N/A          | N/A               | N/A               | 8.11 | 6            | 8            |             | Use Scala 1.10.2, Patch Failures |
+| 1.6.4     | 9.11.1.965          | N/A            | N/A            | N/A          | N/A               | N/A               | 8.11 | 6            | 8            |             | Use Scala 1.10.2, Patch Failures |
 | 1.6.4     | 9.11.1.1345         | N/A            | N/A            | N/A          | N/A               | N/A               | 8.11 | 6            | 8            | LB/RB       | Use Scala 1.10.2, Patch Failures |
 | 1.7.2     | 10.12.0.1047        | 1.10           | 1.12           | 1.1-SNAPSHOT | N/A               | N/A               | 9.03 | 6            | 8            |             | Requires Java 7 to setupDecompWorkspace, Last 1.7.2 version for FG1.1 |
 | 1.7.2     | 10.12.2.1121        | 1.12           | 2.14.1         | 1.2-SNAPSHOT | N/A               | N/A               | 9.03 | 6            | 8            | RB          |       |
@@ -55,6 +55,6 @@
 | 1.14.4 | 28.2.0   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_58                | 9.xx | 8 | 8 | RB | |
 | 1.14.4 | 28.2.1   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_58                | 9.xx | 8 | 8 | LB | |
 | 1.15   | 29.0.4   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_60                | 9.xx | 8 | 8 | LB | |
-| 1.15.1 | 30.0.51  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200216-1.15.1 | 9.xx | 8 | 8 | LB | |
-| 1.15.2 | 31.1.0   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200216-1.15.1 | 9.xx | 8 | 8 | RB | |
-| 1.15.2 | 31.1.12  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200216-1.15.1 | 9.xx | 8 | 8 | LB | |
+| 1.15.1 | 30.0.51  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200622-1.15.1 | 9.xx | 8 | 8 | LB | |
+| 1.15.2 | 31.2.0   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200622-1.15.1 | 9.xx | 8 | 8 | RB | |
+| 1.15.2 | 31.2.21  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200622-1.15.1 | 9.xx | 8 | 8 | LB | |
