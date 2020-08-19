@@ -45,18 +45,18 @@
 | 1.12.1    | 14.22.1.2485        | 2.14           | 4.9            | 2.3-SNAPSHOT | snapshot_20170624 | stable_39         | 9.41 | 6            | 8            | LB          |       |
 | 1.12.2    | 14.23.5.2847        | 2.14           | 4.9            | 2.3-SNAPSHOT | snapshot_20171003 | stable_39         | 9.42 | 6            | 8            | Last FG2    |       |
 | 1.12.2    | 14.23.5.2854        | 2.14           | 4.9            | 3.++         | snapshot_20171003 | stable_39         | 9.42 | 6            | 8            | LB,RB       |       |
-| 1.13   |          | 4.9 |     | 3.+ |                          | stable_43                | 9.xx | 8 | 8 |    | |
-| 1.13.1 |          | 4.9 |     | 3.+ |                          | stable_45                | 9.xx | 8 | 8 |    | |
-| 1.13.2 | 25.0.219 | 4.9 |     | 3.+ | snapshot_20180921-1.13   | stable_47                | 9.xx | 8 | 8 | LB | |
-| 1.14   |          | 4.9 |     | 3.+ |                          | stable_49                | 9.xx | 8 | 8 |    | |
-| 1.14.1 |          | 4.9 |     | 3.+ |                          | stable_51                | 9.xx | 8 | 8 |    | |
-| 1.14.2 | 26.0.63  | 4.9 |     | 3.+ | snapshot_20190621-1.14.2 | stable_53                | 9.xx | 8 | 8 | LB | |
-| 1.14.3 | 27.0.60  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_56                | 9.xx | 8 | 8 | LB | |
-| 1.14.4 | 28.2.0   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_58                | 9.xx | 8 | 8 | RB | |
-| 1.14.4 | 28.2.23  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_58                | 9.xx | 8 | 8 | LB | |
-| 1.15   | 29.0.4   | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | stable_60                | 9.xx | 8 | 8 | LB | |
-| 1.15.1 | 30.0.51  | 4.9 |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200819-1.15.1 | 9.xx | 8 | 8 | LB | |
-| 1.15.2 | 31.2.0   | 4.9 |     | 3.+ | snapshot_20200514-1.15.1 | snapshot_20200819-1.15.1 | 9.xx | 8 | 8 | RB | |
-| 1.15.2 | 31.2.36  | 4.9 |     | 3.+ | snapshot_20200514-1.15.1 | snapshot_20200819-1.15.1 | 9.xx | 8 | 8 | LB | |
-| 1.16.1 | 32.0.108 | 4.9 |     | 3.+ | snapshot_20200514-1.16   | snapshot_20200723-1.16.1 | 9.xx | 8 | 8 | LB | Newer mappings available at [Dogforce Games](https://www.dogforce-games.com/maven/de/oceanlabs/mcp/mcp_snapshot/) |
-| 1.16.2 | 33.0.7   | 4.9 |     | 3.+ | snapshot_20200514-1.16   | snapshot_20200723-1.16.1 | 9.xx | 8 | 8 | LB | Newer mappings available at [Dogforce Games](https://www.dogforce-games.com/maven/de/oceanlabs/mcp/mcp_snapshot/) |
+| 1.13   |          | 4.9    |     | 3.+ |                          | stable_43                | 9.xx | 8 | 8 |    | |
+| 1.13.1 |          | 4.9    |     | 3.+ |                          | stable_45                | 9.xx | 8 | 8 |    | |
+| 1.13.2 | 25.0.219 | 4.9    |     | 3.+ | snapshot_20180921-1.13   | stable_47                | 9.xx | 8 | 8 | LB | |
+| 1.14   |          | 4.9    |     | 3.+ |                          | stable_49                | 9.xx | 8 | 8 |    | |
+| 1.14.1 |          | 4.9    |     | 3.+ |                          | stable_51                | 9.xx | 8 | 8 |    | |
+| 1.14.2 | 26.0.63  | 4.9    |     | 3.+ | snapshot_20190621-1.14.2 | stable_53                | 9.xx | 8 | 8 | LB | |
+| 1.14.3 | 27.0.60  | 4.9    |     | 3.+ | snapshot_20190719-1.14.3 | stable_56                | 9.xx | 8 | 8 | LB | |
+| 1.14.4 | 28.2.0   | 4.9    |     | 3.+ | snapshot_20190719-1.14.3 | stable_58                | 9.xx | 8 | 8 | RB | |
+| 1.14.4 | 28.2.23  | 4.9    |     | 3.+ | snapshot_20190719-1.14.3 | stable_58                | 9.xx | 8 | 8 | LB | |
+| 1.15   | 29.0.4   | 4.9    |     | 3.+ | snapshot_20190719-1.14.3 | stable_60                | 9.xx | 8 | 8 | LB | |
+| 1.15.1 | 30.0.51  | 4.9    |     | 3.+ | snapshot_20190719-1.14.3 | snapshot_20200819-1.15.1 | 9.xx | 8 | 8 | LB | |
+| 1.15.2 | 31.2.0   | 4.10.3 |     | 3.+ | snapshot_20200514-1.15.1 | snapshot_20200819-1.15.1 | 9.xx | 8 | 8 | RB | |
+| 1.15.2 | 31.2.36  | 4.10.3 |     | 3.+ | snapshot_20200514-1.15.1 | snapshot_20200819-1.15.1 | 9.xx | 8 | 8 | LB | |
+| 1.16.1 | 32.0.108 | 4.10.3 |     | 3.+ | snapshot_20200514-1.16   | snapshot_20200723-1.16.1 | 9.xx | 8 | 8 | LB | Newer mappings available at [Dogforce Games](https://www.dogforce-games.com/maven/de/oceanlabs/mcp/mcp_snapshot/) |
+| 1.16.2 | 33.0.7   | 4.10.3 |     | 3.+ | snapshot_20200514-1.16   | snapshot_20200723-1.16.1 | 9.xx | 8 | 8 | LB | Newer mappings available at [Dogforce Games](https://www.dogforce-games.com/maven/de/oceanlabs/mcp/mcp_snapshot/) |
