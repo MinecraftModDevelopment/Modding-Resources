@@ -1,20 +1,4 @@
-###### Mob ore drop
-```java
-public class MobOreDrops {
 
-    @SubscribeEvent
-    public void onEntityDrop(LivingDropsEvent event) {
-        if(event.entityLiving instanceof EntityCreature) {
-            Random r = new Random();
-            List<ItemStack> ores = OreDictionary.getOres("oreIron");
-            if (ores == null || ores.size() <= 0) { return; }
-            Item oreItem = (Item) ores.get(0).getItem();
-            event.entityLiving.dropItem(oreItem, r.nextInt(2));
-        }
-    }
-    
-}
-```
 ### Ore Dict match
 ```java
 public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
@@ -97,14 +81,6 @@ public static boolean isDevEnv() {
 }
 ```
 
-### Mob stuff
-###### AI Task
-The red task will run when the entity#getAttackTarget != null. And as long as the target is null, the green tasks will run in order to set an attack target.
-so if you want to set a target, you add a target task. But if you want to modify how they attack or add a task to move somewhere, you add a task.
-
-![alt text](https://cdn.discordapp.com/attachments/179315645005955072/399651904428310528/tasks.png)
-
-*NOT FOR BEGINNERS!!!*
 #Checking a command sender permission level
 ```java
 sender.canUseCommand(3, this.getName())
