@@ -33,9 +33,6 @@ public static boolean oreDictMatches(ItemStack stack1, ItemStack stack2){
     }
 ```
 
-### Rendering a basic block
-http://pastebin.com/N1YRRcm7
-
 ### Adding Dependencies to your @Mod annotation
 Adding Dependencies to your @Mod annotation is as simple as setting the dependencies field to this:
 dependencies="required-after:forge@[minVersion,maxVersion)"
@@ -113,7 +110,4 @@ so if you want to set a target, you add a target task. But if you want to modify
 sender.canUseCommand(3, this.getName())
 ```
 You can also override `getRequiredPermissionLevel` if you want to set the permission required to run the command
-### Rendering Handler registry
-```java
-RenderingRegistry.registerEntityRenderingHandler(GolemBase.class, RenderGolem::new);
-```
+
