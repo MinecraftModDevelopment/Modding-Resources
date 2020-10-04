@@ -1,4 +1,4 @@
-# Opaque, Normal, and Full cubes.
+### Opaque, Normal, and Full cubes.
 
 The block class has several methods for describing what type of cube the block is. These methods are not very descriptive, and are generally considered to be poorly named. Here is a general breakdown explaining these methods, and when you should use them.
 
