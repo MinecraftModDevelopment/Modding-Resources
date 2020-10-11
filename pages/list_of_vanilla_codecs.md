@@ -1,4 +1,4 @@
-List of several known known Premade Minecraft Codecs and functions to create Codecs as of MCP version snapshot 20200723-1.16.1
+This is an incomplete list of known DataFixerUpper Codecs and functions to create Codecs added to Minecraft as of MCP version snapshot 20200723-1.16.1
 
 | Object  | Codec | Notes |
 | ------------- | ------------- | ------------- |
@@ -21,4 +21,6 @@ List of several known known Premade Minecraft Codecs and functions to create Cod
 | WeightedList.Entry<E>  | net.minecraft.util.WeightedList.Entry.func_234008_a_(final Codec<E> p_234008_0_)  |  |
 | PointOfInterest  | net.minecraft.village.PointOfInterest.func_234150_a_(Runnable p_234150_0_)  |  |
 | PointOfInterestData  | net.minecraft.util.PointOfInterestData.func_234158_a_(Runnable p_234158_0_)  |  |
-
+| BlockPos | net.minecraft.util.math.BlockPos.field_239578_a_ |  |
+| Vector3i | net.minecraft.util.math.vector.Vector3i.field_239781_c_ |  |
+| Registry<T> | net.minecraft.util.registry.Registry<T> | Vanilla Registries implement Codec interface so can be directly used as one. |
