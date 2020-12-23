@@ -61,7 +61,7 @@ sourceSets {
 To add modded resources to your workspace, you can append `--existing-mod <modid>` to the end of the args within the data block like so:
 
 ```gradle
-args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), --existing, file('src/main/resources/'), --existing-mod 'dependencymod'
+args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), --existing, file('src/main/resources/'), --existing-mod, 'dependencymod'
 ```
 
 If you do not specify Forge resources, they will be added by default.
