@@ -56,7 +56,17 @@ sourceSets {
 
 > Note: This will need to match up with the exact location of the output provided in the arguments of the data block.
 
-## Attaching Forge Resources
+## Attaching Modded Resources (35.1.3+)
+
+To add modded resources to your workspace, you can append `--existing-mod <modid>` to the end of the args within the data block like so:
+
+```gradle
+args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), --existing, file('src/main/resources/'), --existing-mod, 'dependencymod'
+```
+
+If you do not specify Forge resources, they will be added by default.
+
+## Attaching Forge Resources Prior to 35.1.3
 
 Forge resources are also not attached by default. However, there is a slight issue to to this due to a cyclical dependency. If the dependences are called after the minecraft block, then the minecraft block won't exist when it tries to add the argument. On the other handle, if the dependencies are called first, the minecraft block will not have been constructed yet.
 
