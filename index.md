@@ -19,7 +19,7 @@ This page serves as a central index for the various resources we share and provi
 - [**Oracle's Naming Conventions**](https://www.oracle.com/technetwork/java/codeconventions-135099.html)
 - [**How to use ObjectHolders**](https://gist.github.com/TehNut/dad98543d72d9338d780a24e087e9c7e/) - A guide on object holders, and how to effectively use them.
 - [**Why Does Side Only Exist?**](https://gist.github.com/TehNut/4e7b60e0a43c39a709b8b59ae48cb493) - An overview of what the SideOnly annotation is, and why it exists.
-- [**Why 32x Textures are Bad**](https://latmod.com/moddingtutorials/textures32x/) - A technical breakdown of why 32x textures should be avoided.
+- [**Why 32x Textures are Bad**](https://latmod.com/moddingtutorials/non-16x-textures/) - A technical breakdown of why 32x textures should be avoided.
 - [**Vanilla's Built In Profiler**](https://www.reddit.com/r/feedthebeast/comments/5mxn51/vanilla_has_an_built_in_profiler_that_not_a_lot/?st=jvpsruh4&sh=bb7c1846) - Vanilla Minecraft has it's own debug profiler. This post explains what it is, and how to use it.
 - [**Energy Conversion Rates**](https://gist.github.com/DeflatedPickle/403e1eb0bb0bed7f2509142e63630726/) - A table of energy conversion rates, such as RF to Joules.
 - [**1.13 Changes & Primer**](https://gist.github.com/williewillus/353c872bcf1a6ace9921189f6100d09a) - A break down of all the changes in 1.13, and how to adapt to them.
