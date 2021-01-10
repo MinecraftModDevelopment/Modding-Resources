@@ -30,7 +30,8 @@ This page serves as a central index for the various resources we share and provi
 - [**Animated Texture Format**](https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack#Animation_Properties) - Documentation on the animated texture format.
 - [**Forge Recipe Factory Example**](https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/src/test/resources/assets/crafting_system_test/recipes/_factories.json) - An example of how to add new recipe factories to forge.
 - [**Forge Gradle Info by Version**](https://github.com/MinecraftModDevelopment/Modding-Resources/blob/master/version_info.md) - A list of forge gradle versions and relevant usage info.
-- [**Forge 1.12.2 JavaDocs**](http://maven.thiakil.com/forge-1.12-javadoc/) - The Forge 1.12.2 Javadocs.
+- [**Forge 1.12.2 (2768) JavaDocs**](http://maven.thiakil.com/forge-1.12-javadoc/) - The Forge 1.12.2 (version 2768) Javadocs.
+- [**Forge 1.12.2 (2847) JavaDocs**](https://democat3457.github.io/ForgeDocs/1.12/index.html) - The Forge 1.12.2 (version 2847) Javadocs.
 - [**Why Doesn't My Event Handler Work!!??**](https://cdn.discordapp.com/attachments/179315645005955072/475010493824892948/unknown.png) - A simple flow chart explaining how event handlers work.
 - [**Removing Sensitive Data From Git**](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) - How to remove sensitive data from your git repo.
 - [**Learning Git**](https://try.github.io/) - A collection of resources to learn git.
@@ -42,6 +43,7 @@ This page serves as a central index for the various resources we share and provi
 - [**Why you should never use OpenGL directly, or GlStateManager.pushAttrib/popAttrib**](https://gist.github.com/JamiesWhiteShirt/ff2521936a83ebc10fd6893e206a6770) - A breakdown on why you should always use the GlStateManager instead of OpenGL directly. Also covers why push/pop attrib is broken.
 - [**Common 1.12 Mapping Changes**](https://gist.github.com/strikerrocker/1e31558b35dc65c49fb56fddca9fcf5d) - Some of the more common methods that have been remapped/changes in 1.12.
 - [**Mod Dependencies**](https://gist.github.com/strikerrocker/873f81e686f391662f39b83efee136ff) - How to load other mods into your dev environment as build dependencies.
+- [**Good Practices in MC Modding**](https://wiki.modded-mc.com/books/general-info/page/good-practices-in-minecraft-modding) - Some general practices that are advisable to avoid problems and make your code readable.
 
 ## General Tools
 - [**Thiakil's MCP Mapping Viewer**](http://mcp.thiakil.com/index.html) - Lets you quickly search for info on MCP and SRG mapping names.
