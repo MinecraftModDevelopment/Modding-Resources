@@ -2,6 +2,9 @@
 
 This page serves as a central index for the various resources we share and provide. 
 
+## Community Wiki
+- [**Forge Community Wiki**](https://forge.gemwire.uk/wiki/Main_Page)
+
 ## Tutorials
 - [**Darkhax's Tutorials**](https://darkhax.net/tag/mc-mod-tutorial?MMDDevPins) - 1.8/1.9/1.10/1.11/1.12
 - [**McJty's Tutorials**](https://wiki.mcjty.eu/modding/index.php?title=Main_Page) - 1.10/1.11/1.12
