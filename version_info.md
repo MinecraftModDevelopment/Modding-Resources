@@ -5,14 +5,14 @@
 | 1.6.4   | 9.11.1.1345         | N/A    | N/A    | N/A          | N/A                      | N/A                             | 8.11     | 6 | 8 | LB/RB       | Use Scala 1.10.2, Patch Failures |
 | 1.7.2   | 10.12.0.1047        | 1.10   | 1.12   | 1.1-SNAPSHOT | N/A                      | N/A                             | 9.03     | 6 | 8 |             | Requires Java 7 to setupDecompWorkspace, Last 1.7.2 version for FG1.1 |
 | 1.7.2   | 10.12.2.1161-mc172  | 1.12   | 2.14.1 | 1.2-SNAPSHOT | N/A                      | N/A                             | 9.03     | 6 | 8 | LB/RB       | |
-| 1.7.10  |                     |        |        |              |                          | stable_8                        | 9.08     | 6 | 8 | Mappings    | |
-| 1.7.10  |                     |        |        |              |                          | stable_9                        | 9.08     | 6 | 8 | Mappings    | |
-| 1.7.10  |                     |        |        |              |                          | stable_10                       | 9.08     | 6 | 8 | Mappings    | |
-| 1.7.10  |                     |        |        |              |                          | stable_11                       | 9.08     | 6 | 8 | Mappings    | |
+| 1.7.10  |                     | N/A    | N/A    |              | N/A                      | stable_8                        | 9.08     | 6 | 8 | Mappings    | |
+| 1.7.10  |                     | N/A    | N/A    |              | N/A                      | stable_9                        | 9.08     | 6 | 8 | Mappings    | |
+| 1.7.10  |                     | N/A    | N/A    |              | N/A                      | stable_10                       | 9.08     | 6 | 8 | Mappings    | |
+| 1.7.10  |                     | N/A    | N/A    |              | N/A                      | stable_11                       | 9.08     | 6 | 8 | Mappings    | |
 | 1.7.10  | 10.13.4.1614-1.7.10 | 2.0    | 4.4.1  | 1.2-SNAPSHOT | Unspecified              | stable_12                       | 9.08     | 6 | 8 | LB/RB       | |
-| 1.8     |                     |        |        |              |                          | stable_15                       | 9.10     | 6 | 8 | Mappings    | |
-| 1.8     |                     |        |        |              |                          | stable_16                       | 9.10     | 6 | 8 | Mappings    | |
-| 1.8     |                     |        |        |              |                          | stable_17                       | 9.10     | 6 | 8 | Mappings    | |
+| 1.8     |                     | N/A    | N/A    |              | N/A                      | stable_15                       | 9.10     | 6 | 8 | Mappings    | |
+| 1.8     |                     | N/A    | N/A    |              | N/A                      | stable_16                       | 9.10     | 6 | 8 | Mappings    | |
+| 1.8     |                     | N/A    | N/A    |              | N/A                      | stable_17                       | 9.10     | 6 | 8 | Mappings    | |
 | 1.8     | 11.14.3.1502        | 2.0    | 4.4.1  | 1.2-SNAPSHOT | snapshot_20141130        | stable_18                       | 9.10     | 6 | 8 |             | Last 1.8 version for FG1.2 & Seperate FML |
 | 1.8     |                     | N/A    | 2.7    | 2.0.0        |                          |                                 | 9.10     | 6 | 8 | ForgeGradle | |
 | 1.8     |                     | N/A    | 2.7    | 2.0.1        |                          |                                 | 9.10     | 6 | 8 | ForgeGradle | |
