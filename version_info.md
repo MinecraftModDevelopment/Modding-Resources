@@ -1,5 +1,5 @@
-| Minecraft |        Forge        | Gradle Default | Gradle Maximum | ForgeGradle  | Mappings Default  | Mappings Maximum  | MCP  | Java Minimum | Java Maximum |  Promotion  | Notes |
-| --------- | ------------------- | -------------- | -------------- | ------------ | ----------------- | ----------------- | ---- | ------------ | ------------ | ----------- | ----- |
+| Minecraft |        Forge        | Gradle Default | Gradle Maximum | ForgeGradle  | Mappings Default  | Mappings Latest  | MCP  | Java Minimum | Java Maximum |  Promotion  | Notes |
+| --------- | ------------------- | -------------- | -------------- | ------------ | ----------------- | ---------------- | ---- | ------------ | ------------ | ----------- | ----- |
 | 1.6.4   | 9.11.1.964          | 1.8    | 2.8    | 1.0-SNAPSHOT | N/A                      | N/A                             | 8.11     | 6 | 8 |             | Requires Java 7 to setupDecompWorkspace |
 | 1.6.4   | 9.11.1.965          | N/A    | N/A    | N/A          | N/A                      | N/A                             | 8.11     | 6 | 8 |             | Use Scala 1.10.2, Patch Failures |
 | 1.6.4   | 9.11.1.1345         | N/A    | N/A    | N/A          | N/A                      | N/A                             | 8.11     | 6 | 8 | LB/RB       | Use Scala 1.10.2, Patch Failures |
