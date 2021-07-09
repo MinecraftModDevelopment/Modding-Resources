@@ -3,7 +3,7 @@
 | 1.6.4   | 9.11.1.964          | 1.8    | 2.8    | 1.0-SNAPSHOT | N/A                      | N/A                             | 8.11     | 6 | 8 |             | Requires Java 7 to setupDecompWorkspace |
 | 1.6.4   | 9.11.1.965          | N/A    | N/A    | N/A          | N/A                      | N/A                             | 8.11     | 6 | 8 |             | Use Scala 1.10.2, Patch Failures |
 | 1.6.4   | 9.11.1.1345         | N/A    | N/A    | N/A          | N/A                      | N/A                             | 8.11     | 6 | 8 | LB/RB       | Use Scala 1.10.2, Patch Failures |
-| 1.7.2   | 10.12.0.1047        | 1.10   | 1.12   | 1.1-SNAPSHOT | N/A                      | N/A                             | 9.03     | 6 | 8 |             | Requires Java 7 to setupDecompWorkspace, Last 1.7.2 version for FG1.1 |
+| 1.7.2   | 10.12.0.1047        | 1.10   | 1.12   | 1.1-SNAPSHOT | N/A                      | N/A                             | 9.03     | 6 | 8 |             | Requires Java 7 to setupDecompWorkspace<br/> (which will fail due to hunks 8 & 9 of `net/minecraft/world/gen/structure/StructureVillagePieces.java.patch` not applying),<br/> Last 1.7.2 version for FG1.1 |
 | 1.7.2   | 10.12.2.1161-mc172  | 1.12   | 2.14.1 | 1.2-SNAPSHOT | N/A                      | N/A                             | 9.03     | 6 | 8 | LB/RB       | |
 | 1.7.10  |                     | N/A    | N/A    |              | N/A                      | stable_8                        | 9.08     | 6 | 8 | Mappings    | |
 | 1.7.10  |                     | N/A    | N/A    |              | N/A                      | stable_9                        | 9.08     | 6 | 8 | Mappings    | |
@@ -57,5 +57,5 @@
 | 1.16.4  | 35.1.37             | 4.10.3 | 5.6.4  | 3.+          | snapshot_20201028-1.16.3 | snapshot_20210309-1.16.4        | 20201102 | 8 | 8 | LB          | |
 | 1.16.5  | 36.0.46             | 4.10.3 | 5.6.4  | 3.+          | official_1.16.5          | official_1.16.5/20210309-1.16.5 | 20210115 | 8 | 8 | Last FG3    | |
 | 1.16.5  | 36.1.0              | 6.8.1  | 6.9    | 4.1.+        | official_1.16.5          | official_1.16.5/20210309-1.16.5 | 20210115 | 8 | 8 | RB          | |
-| 1.16.5  | 36.1.16             | 6.8.1  | 6.9    | 4.1.+        | official_1.16.5          | official_1.16.5/20210309-1.16.5 | 20210115 | 8 | 8 |             | Last using Gradle 6.8.1 |
+| 1.16.5  | 36.1.16             | 6.8.1  | 6.9    | 4.1.+        | official_1.16.5          | official_1.16.5/20210309-1.16.5 | 20210115 | 8 | 8 |             | |
 | 1.16.5  | 36.1.32             | 6.9    | 6.9    | 4.1.+        | official_1.16.5          | official_1.16.5/20210309-1.16.5 | 20210115 | 8 | 8 | LB          | |
