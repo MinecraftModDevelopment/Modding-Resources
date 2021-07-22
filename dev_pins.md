@@ -44,10 +44,10 @@ The oracle docs can be technical at times, if you're an absolute beginner, you m
 
 Where things go:
 The block itself goes in the minecraft block.
-the respective vars get defined in your gradle.properties, I suggest NOT putting the ones starting mc_ in your per project gradle.properties, do it in your user gradle.properties instead (That's the one in .gradle).
+the respective vars get defined in your gradle.properties, I suggest NOT putting the ones starting mc_ in your per project gradle.properties, do it in your user gradle.properties instead (That's the one in ~/.gradle on linux, or %userprofile%/.gradle on windows).
 
 What it does:
-1) Lets you define how much ram is given to the client or server when they're run with gradlew runClient/runServer.
+1) Lets you define how much RAM is given to the client or server when they're run with gradlew runClient/runServer.
 2) Lets you enter your username/password and/or UUID when in dev mode.
 3) Adds "nogui" when running runServer (Comment out/remove if not wanted).
 
