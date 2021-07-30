@@ -35,7 +35,7 @@ This page serves as a central index for the various resources we share and provi
 - [**Forge Gradle Info by Version**](https://github.com/MinecraftModDevelopment/Modding-Resources/blob/master/version_info.md) - A list of forge gradle versions and relevant usage info.
 - [**Forge 1.12.2 (2768) JavaDocs**](http://maven.thiakil.com/forge-1.12-javadoc/) - The Forge 1.12.2 (version 2768) Javadocs.
 - [**Forge 1.12.2 (2847) JavaDocs**](https://democat3457.github.io/ForgeDocs/1.12/index.html) - The Forge 1.12.2 (version 2847) Javadocs.
-- [**Why Doesn't My Event Handler Work!!??**](https://cdn.discordapp.com/attachments/179315645005955072/475010493824892948/unknown.png) - A simple flow chart explaining how event handlers work.
+- [**Why Doesn't My Event Handler Work!!??**](https://raw.githubusercontent.com/MinecraftModDevelopment/Modding-Resources/master/eventhandler.png) - A simple flow chart explaining how event handlers work.
 - [**Removing Sensitive Data From Git**](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository) - How to remove sensitive data from your git repo.
 - [**Learning Git**](https://try.github.io/) - A collection of resources to learn git.
 - [**Forge's contained deps example**](https://github.com/JamiesWhiteShirt/clothesline/blob/master/build.gradle) - An example script that uses contained dependencies.
