@@ -25,9 +25,9 @@ https://github.com/Shadows-of-Fire/How2Mod/blob/master/Instructions.txt/
 
 https://github.com/TheGreyGhost/MinecraftByExample/ 1.8.9/1.10.2/1.11.2
 
-https://web.archive.org/web/20170629194638/https://bedrockminer.jimdo.com/modding-tutorials 1.7.10/1.8.9
+[https://bedrockminer.jimdo.com/modding-tutorials](https://web.archive.org/web/20170629194638/https://bedrockminer.jimdo.com/modding-tutorials) 1.7.10/1.8.9
 
-http://web.archive.org/web/20181007042911/http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/ 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
+[http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/](https://web.archive.org/web/20181007042911/http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/) 1.3.2/1.4/1.5.1/1.6/1.7.10/1.8.9
 
 ### Java for complete beginners
 https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411
@@ -38,13 +38,13 @@ https://docs.oracle.com/javase/tutorial/java/javaOO/
 
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
 
-The oracle docs can be technical at times, if you're an absolute beginner, you might find something like CodeAcademy to be more helpful.
+The Oracle docs can be technical at times, if you're an absolute beginner, you might find something like CodeAcademy to be more helpful.
 
-### Gradle settings for minecraft
+### Useful Gradle settings for Minecraft
 
-Where things go:
-The block itself goes in the minecraft block.
-the respective vars get defined in your gradle.properties, I suggest NOT putting the ones starting mc_ in your per project gradle.properties, do it in your user gradle.properties instead (That's the one in ~/.gradle on linux, or %userprofile%/.gradle on windows).
+Where things go:  
+The block itself goes in the minecraft block.  
+The respective vars get defined in your gradle.properties, I suggest NOT putting the ones starting mc_ in your per project gradle.properties, do it in your user gradle.properties instead (That's the one in ~/.gradle on linux, or %userprofile%/.gradle on windows).
 
 What it does:
 1) Lets you define how much RAM is given to the client or server when they're run with gradlew runClient/runServer.
@@ -92,7 +92,7 @@ What it does:
 
 ### CurseForge 
 endpoint
-```Gradle
+```gradle
 repositories {
 maven {
         //fallback for almost everything, this is CurseForge :P
@@ -112,14 +112,14 @@ dependencies {
 Adding Dependencies to your @Mod annotation is as simple as setting the dependencies field to this:
 dependencies="required-after:forge@[minVersion,maxVersion)"
 
-multiple dependencies are separated using ;, min and max version are optional. [, ] = included, (,) = excluded versions. you can also leave the min or max fields empty or omit the whole version range.
+Multiple dependencies are separated using ;, min and max version are optional. [, ] = included, (,) = excluded versions. you can also leave the min or max fields empty or omit the whole version range.
 keywords
  after = load this mod after the one specified, if present
 before = load this mod before the one specified, if present.
 
-keywords can be prefixed with required-, which will force the specified modid to be present.
+Keywords can be prefixed with required-, which will force the specified modid to be present.
 
-for more info on the version ranges see https://docs.oracle.com/middleware/1212/core/MAVEN/maven_version.htm#MAVEN402
+For more info on the version ranges see https://docs.oracle.com/middleware/1212/core/MAVEN/maven_version.htm#MAVEN402
 
 ### Version ranges
 Format used in version ranges strings (for dependencies for example)
@@ -138,14 +138,15 @@ With the release of Forge 14.23.2.2638, a proper way to render items with GL was
 https://try.github.io/levels/1/challenges/1
 
 ###### Git clients
-Semi advanced  
-https://www.gitkraken.com/
-
 Easy for new users  
-https://desktop.github.com/
+[Github Desktop](https://desktop.github.com/)
 
-Mid ranged  
-https://www.sourcetreeapp.com/
+Mid-ranged  
+[Sourcetree](https://www.sourcetreeapp.com/)
+
+Semi-advanced  
+[GitKraken](https://www.gitkraken.com)
+
 
 ###### Using Git
 To clone an entire repo.  
