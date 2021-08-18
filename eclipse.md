@@ -43,3 +43,8 @@
 
 - [Buildship Installation instructions](https://github.com/eclipse/buildship/blob/master/docs/user/Installation.md#installing-from-eclipseorg-update-site)
 - [Marketplace Client](https://www.eclipse.org/mpc/)
+
+- [eclipse.ini](https://wiki.eclipse.org/Eclipse.ini)
+- [FAQ How do I run Eclipse?](https://wiki.eclipse.org/FAQ_How_do_I_run_Eclipse%3F)
+- [FAQ How do I increase the heap size available to Eclipse?](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F)
+- [FAQ How do I increase the permgen size available to Eclipse?](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_permgen_size_available_to_Eclipse%3F)
