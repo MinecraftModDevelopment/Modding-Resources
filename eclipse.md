@@ -4,7 +4,7 @@
 | [2.0.2](https://archive.eclipse.org/eclipse/downloads/drops/R-2.0.2-200211071448/)    |          | 1.3   | 1.6? | None | None | [2.0.2.1 patch for windows](https://archive.eclipse.org/eclipse/downloads/drops/P-2.0.2.1-200301091014/), Doesn't work on 64 Bit, crash on newer than Java 1.4.1 |
 | [2.1.3](https://archive.eclipse.org/eclipse/downloads/drops/R-2.1.3-200403101828/)    |          | 1.3   | 1.6? | None | None | Doesn't work on 64 Bit |
 | [3.0.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.0.2-200503110845/)    |          | 1.4.1 | 1.6? | None | None | Doesn't work on 64 Bit |
-| [3.1.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.1.2-200601181600/)    |          | 1.4.2 | 1.6? | None | None | Doesn't work on 64 Bit |
+| [3.1.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.1.2-200601181600/)    |          | 1.4.2 | 1.6? | None | None | |
 | [3.2.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.2.2-200702121330/)    |          | 1.4.2 | 1.6? | None | None | |
 | [3.3.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.3.2-200802211800/)    | Europa   | 1.4.2 | 1.6 | None | None | |
 | [3.4.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.4.2-200902111700/)    | Ganymede | 1.4.2 | 1.6 | None | None | |
