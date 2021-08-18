@@ -1,19 +1,19 @@
 | Version |  Name    | Minimum Java | Maximum Java   |  Buildship (Bundled)  | Buildship (Supported) | Notes |
 |---------|----------|--------------|----------------|-----------------------|-----------------------|-------|
-| 1.0     |          | ???          | ???            | None                  | None                  | Doesn't work on 64 Bit |
-| 2.0.2   |          | ???          | ???            | None                  | None                  | Doesn't work on 64 Bit |
-| 2.1.3   |          | ???          | ???            | None                  | None                  | Doesn't work on 64 Bit |
-| 3.0.2   |          | ???          | ???            | None                  | None                  | Doesn't work on 64 Bit |
-| 3.1.2   |          | ???          | ???            | None                  | None                  | Doesn't work on 64 Bit |
-| 3.2.2   |          | 1.4          | ???            | None                  | None                  |
-| 3.3.1.1 | Europa   | 1.5?         | 1.6?           | None                  | None                  |
-| 3.4.2   | Ganymede | 1.5?         | 1.6?           | None                  | None                  |
-| 3.5.2   | Galileo  | 1.5?         | 1.6?           | None                  | None                  |
+| 1.0     |          | 1.3          | ???            | None                  | None                  | Doesn't work on 64 Bit |
+| 2.0.2   |          | 1.3          | ???            | None                  | None                  | Doesn't work on 64 Bit, crash on newer than Java 1.4.1 |
+| 2.1.3   |          | 1.3          | ???            | None                  | None                  | Doesn't work on 64 Bit |
+| 3.0.2   |          | 1.4.1        | ???            | None                  | None                  | Doesn't work on 64 Bit |
+| 3.1.2   |          | 1.4.2        | ???            | None                  | None                  | Doesn't work on 64 Bit |
+| 3.2.2   |          | 1.4.2        | ???            | None                  | None                  |
+| 3.3.2   | Europa   | 1.4.2        | 1.6            | None                  | None                  |
+| 3.4.2   | Ganymede | 1.4.2        | 1.6            | None                  | None                  |
+| 3.5.2   | Galileo  | 1.4.2        | 1.6            | None                  | None                  |
 | 3.6.2   | Helios   | 1.5          | 1.7            | None                  | 1.x                   |
 | 3.7.2   | Indigo   | 1.5          | 1.7            | None                  | 1.x                   |
 | 3.8.2   | Juno     | 1.5          | 1.7            | None                  | 1.x                   |
 | 4.2.2   | Juno     | 1.5          | 1.7            | None                  | 1.x, 2.x              |
-| 4.3.2   | Kepler   | 1.6          | 1.7            | None                  | 1.x, 2.x, 3.x         |
+| 4.3.2   | Kepler   | 1.6          | 1.7 (1.8 patch)| None                  | 1.x, 2.x, 3.x         | Has optional Java 8 support patch |
 | 4.4.1   | Luna     | 1.6          | 1.8            | None                  | 1.x, 2.x, 3.x         |
 | 4.5.2   | Mars     | 1.7          | 1.8            | None                  | 1.x, 2.x, 3.x         |
 | 4.6.3   | Neon     | 1.8          | 1.8            | 1.0.21                | 1.x, 2.x, 3.x         |
