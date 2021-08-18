@@ -1,10 +1,10 @@
 | Version |  Name    | Minimum Java | Maximum Java   |  Buildship (Bundled)  | Buildship (Supported) | Notes |
 |---------|----------|--------------|----------------|-----------------------|-----------------------|-------|
-| [1.0](https://archive.eclipse.org/eclipse/downloads/drops/R-1.0-200111070001/)        |          | 1.3   | 1.6? | None | None | Doesn't work on 64 Bit |
-| [2.0.2](https://archive.eclipse.org/eclipse/downloads/drops/R-2.0.2-200211071448/)    |          | 1.3   | 1.6? | None | None | [2.0.2.1 patch for windows](https://archive.eclipse.org/eclipse/downloads/drops/P-2.0.2.1-200301091014/), Doesn't work on 64 Bit, crash on newer than Java 1.4.1 |
-| [2.1.3](https://archive.eclipse.org/eclipse/downloads/drops/R-2.1.3-200403101828/)    |          | 1.3   | 1.6? | None | None | Doesn't work on 64 Bit |
-| [3.0.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.0.2-200503110845/)    |          | 1.4.1 | 1.6? | None | None | Doesn't work on 64 Bit |
-| [3.1.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.1.2-200601181600/)    |          | 1.4.2 | 1.6? | None | None | |
+| [1.0](https://archive.eclipse.org/eclipse/downloads/drops/R-1.0-200111070001/)        |          | 1.3   | 1.6? | None | None | Note #1 |
+| [2.0.2](https://archive.eclipse.org/eclipse/downloads/drops/R-2.0.2-200211071448/)    |          | 1.3   | 1.6? | None | None | [2.0.2.1 patch for windows](https://archive.eclipse.org/eclipse/downloads/drops/P-2.0.2.1-200301091014/), crash on newer than Java 1.4.1, Note #1 |
+| [2.1.3](https://archive.eclipse.org/eclipse/downloads/drops/R-2.1.3-200403101828/)    |          | 1.3   | 1.6? | None | None | Note #1 |
+| [3.0.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.0.2-200503110845/)    |          | 1.4.1 | 1.6? | None | None | Note #1 |
+| [3.1.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.1.2-200601181600/)    |          | 1.4.2 | 1.6? | None | None | Note #1 |
 | [3.2.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.2.2-200702121330/)    |          | 1.4.2 | 1.6? | None | None | |
 | [3.3.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.3.2-200802211800/)    | Europa   | 1.4.2 | 1.6 | None | None | |
 | [3.4.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.4.2-200902111700/)    | Ganymede | 1.4.2 | 1.6 | None | None | |
@@ -48,3 +48,5 @@
 - [FAQ How do I run Eclipse?](https://wiki.eclipse.org/FAQ_How_do_I_run_Eclipse%3F)
 - [FAQ How do I increase the heap size available to Eclipse?](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F)
 - [FAQ How do I increase the permgen size available to Eclipse?](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_permgen_size_available_to_Eclipse%3F)
+
+- Note #1: Must be started with -vm to work on 64 bit, or newer java (upto 8.x)
