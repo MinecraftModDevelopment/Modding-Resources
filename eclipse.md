@@ -12,7 +12,7 @@
 | 3.6.2   | Helios   | 1.5          | 1.7            | None                  | 1.x                   | First to support Marketplace Client & BuildShip|
 | 3.7.2   | Indigo   | 1.5          | 1.7            | None                  | 1.x                   |
 | 3.8.2   | Juno     | 1.5          | 1.7            | None                  | 1.x                   |
-| 4.2.2   | Juno     | 1.5          | 1.7            | None                  | 1.x, 2.x              |
+| 4.2.2   | Juno     | 1.5          | 1.7            | None                  | 1.x, 2.x              | First version available on the eclipse-installer |
 | 4.3.2   | Kepler   | 1.6          | 1.7 (1.8 patch)| None                  | 1.x, 2.x, 3.x         | Has optional Java 8 support patch |
 | 4.4.1   | Luna     | 1.6          | 1.8            | None                  | 1.x, 2.x, 3.x         |
 | 4.5.2   | Mars     | 1.7          | 1.8            | None                  | 1.x, 2.x, 3.x         |
