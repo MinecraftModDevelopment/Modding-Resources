@@ -9,7 +9,7 @@
 | 3.3.2   | Europa   | 1.4.2        | 1.6            | None                  | None                  |
 | 3.4.2   | Ganymede | 1.4.2        | 1.6            | None                  | None                  |
 | 3.5.2   | Galileo  | 1.4.2        | 1.6            | None                  | None                  |
-| 3.6.2   | Helios   | 1.5          | 1.7            | None                  | 1.x                   | First to support Marketplace Client |
+| 3.6.2   | Helios   | 1.5          | 1.7            | None                  | 1.x                   | First to support Marketplace Client & BuildShip|
 | 3.7.2   | Indigo   | 1.5          | 1.7            | None                  | 1.x                   |
 | 3.8.2   | Juno     | 1.5          | 1.7            | None                  | 1.x                   |
 | 4.2.2   | Juno     | 1.5          | 1.7            | None                  | 1.x, 2.x              |
