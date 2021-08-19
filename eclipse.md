@@ -12,7 +12,7 @@
 | [3.6.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.6.2-201102101200/)    | Helios   | 1.5   | 1.7 | None | 1.x  | First to support Marketplace Client & BuildShip|
 | [3.7.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.7.2-201202080800/)    | Indigo   | 1.5   | 1.7 | None | 1.x  | |
 | [3.8.2](https://archive.eclipse.org/eclipse/downloads/drops/R-3.8.2-201301310800/)    | Juno     | 1.5   | 1.7 | None | 1.x  | |
-| [4.0](https://archive.eclipse.org/eclipse/downloads/drops4/R-4.0-201007271520/)       |          | 1.5?  | 1.7? | None | 1.x? | |
+| [4.0](https://archive.eclipse.org/eclipse/downloads/drops4/R-4.0-201007271520/)       |          | 1.5?  | 1.7 | None | 1.x? | |
 | [4.1.2](https://archive.eclipse.org/eclipse/downloads/drops4/R-4.1.2-201202230900/)   |          | 1.5?  | 1.7? | None | 1.x? | |
 | [4.2.2](https://archive.eclipse.org/eclipse/downloads/drops4/R-4.2.2-201302041200/)   | Juno     | 1.5   | 1.7 | None | 1.x, 2.x | First version available on the eclipse-installer |
 | [4.3.2](https://archive.eclipse.org/eclipse/downloads/drops4/R-4.3.2-201402211700/)   | Kepler   | 1.6   | 1.7 (1.8 with patch)| None | 1.x, 2.x, 3.x | Has [optional Java 8 support patch](https://archive.eclipse.org/eclipse/downloads/drops4/P20140317-1600/) |
