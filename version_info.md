@@ -17,8 +17,8 @@
 | 1.8     |                     | N/A    | 2.7    | 2.0.0        |                          |                                 | 9.10            | 6  | 8  | ForgeGradle | |
 | 1.8     |                     | N/A    | 2.7    | 2.0.1        |                          |                                 | 9.10            | 6  | 8  | ForgeGradle | |
 | 1.8     |                     | N/A    | 2.8    | 2.0.2        |                          |                                 | 9.10            | 6  | 8  | ForgeGradle | |
-| 1.8     | 11.14.4.1563        | 2.7    | 4.9    | 2.0-SNAPSHOT | snapshot_20141130        | stable_18                       | 9.10            | 6  | 8  | RB          | |
-| 1.8     | 11.14.4.1577        | 2.7    | 4.9    | 2.0-SNAPSHOT | snapshot_20141130        | stable_18                       | 9.10            | 6  | 8  | LB          | |
+| 1.8     | 11.14.4.1563        | 2.7    | 4.9    | 2.0-SNAPSHOT | snapshot_20141130        | stable_18                       | 9.10            | 6  | 8  | RB          | add `-x getFernFlower` to gradle command when running setupDecompWorkspace<br> needs fernflower-fixed.jar in `.gradle\caches\minecraft` |
+| 1.8     | 11.14.4.1577        | 2.7    | 4.9    | 2.0-SNAPSHOT | snapshot_20141130        | stable_18                       | 9.10            | 6  | 8  | LB          | add `-x getFernFlower` to gradle command when running setupDecompWorkspace<br> needs fernflower-fixed.jar in `.gradle\caches\minecraft` |
 | 1.8.8   | 11.15.0.1655        | 2.7    | 4.9    | 2.1-SNAPSHOT | snapshot_20151122        | stable_20                       | 9.18            | 6  | 8  | LB          | No 1.8.8 RB |
 | 1.8.9   | 11.15.1.2318-1.8.9  | 2.7    | 4.9    | 2.1-SNAPSHOT | stable_20                | stable_22                       | 9.19            | 6  | 8  | RB,LB       | |
 | 1.9     | 12.16.1.1887        | 2.7    | 4.9    | 2.1-SNAPSHOT | snapshot_20160312        | stable_24                       | 9.24            | 6  | 8  | RB          | |
