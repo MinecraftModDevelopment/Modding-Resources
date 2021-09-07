@@ -11,8 +11,8 @@ This page serves as a central index for the various resources we share and provi
 - [**ShadowFacts's Tutorials**](https://shadowfacts.net/tutorials/forge-modding-112/) - 1.10/1.11/1.12
 - [**The Grey Ghost's Minecraft By Example**](https://github.com/TheGreyGhost/MinecraftByExample/) - 1.8/1.10/1.11/1.12/1.14/1.15/1.16
 - [**Bedrock Miner's Tutorials (Archived)**](https://web.archive.org/web/20170629194638/https://bedrockminer.jimdo.com/modding-tutorials) - 1.7/1.8
-- [**Wuppy's Tutorials**](http://web.archive.org/web/20181007042911/http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/) - 1.3/1.4/1.5/1.6/1.7/1.8
-- [**Forge's Old Wiki**](http://web.archive.org/web/20160302194303/http://www.minecraftforge.net/wiki/Main_Page) - 1.3/1.4/1.5/1.6/1.7
+- [**Wuppy's Tutorials (Archived)**](htts://web.archive.org/web/20181007042911/http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding/) - 1.3/1.4/1.5/1.6/1.7/1.8
+- [**Forge's Old Wiki (Archived)**](https://web.archive.org/web/20160302194303/http://www.minecraftforge.net/wiki/Main_Page) - 1.3/1.4/1.5/1.6/1.7
 - [**Forge's Official Docs (Latest)**](https://mcforge.readthedocs.io/en/latest/)
 - [**Forge's Official Docs (1.12.x)**](https://mcforge.readthedocs.io/en/1.12.x/)
 - [**Forge's Official Docs (1.13.x)**](https://mcforge.readthedocs.io/en/1.13.x/)
