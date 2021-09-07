@@ -7,7 +7,7 @@ This page serves as a central index for the various resources we share and provi
 
 ## Tutorials
 - [**Darkhax's Tutorials**](https://darkhax.net/tag/mc-mod-tutorial?MMDDevPins) - 1.8/1.9/1.10/1.11/1.12
-- [**McJty's Tutorials**](https://wiki.mcjty.eu/modding/index.php?title=Main_Page) - 1.10/1.11/1.12
+- [**McJty's Tutorials**](https://wiki.mcjty.eu/modding/index.php?title=Main_Page) - 1.10/1.11/1.12/1.14/1.15/1.16/1.17
 - [**ShadowFacts's Tutorials**](https://shadowfacts.net/tutorials/forge-modding-112/) - 1.10/1.11/1.12
 - [**The Grey Ghost's Minecraft By Example**](https://github.com/TheGreyGhost/MinecraftByExample/) - 1.8/1.10/1.11/1.12
 - [**Bedrock Miner's Tutorials (Archived)**](https://web.archive.org/web/20170629194638/https://bedrockminer.jimdo.com/modding-tutorials) - 1.7/1.8
