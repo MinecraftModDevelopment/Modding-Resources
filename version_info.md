@@ -60,4 +60,4 @@
 | 1.16.5  | 36.1.65             | 6.9    | 6.9.1  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.08.29 | 20210115 | 8  | 8  | Last FG4 | |
 | 1.16.5  | 36.2.0              | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.08.29 | 20210115 | 8  | 8  | RB | |
 | 1.16.5  | 36.2.4              | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.08.29 | 20210115 | 8  | 8  | LB | |
-| 1.17.1  | 37.0.53             | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.09.05                         | 20210706 | 16 | 16 | LB | |
+| 1.17.1  | 37.0.59             | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.09.05                         | 20210706 | 16 | 16 | LB | First release of 1.17.1 which supports Mixins natively |
