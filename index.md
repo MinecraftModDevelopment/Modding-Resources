@@ -62,7 +62,6 @@ This page serves as a central index for the various resources we share and provi
 - [**JsonLint**](http://jsonlint.com/) - A linter for Json. Let's you validate and format json files.
 - [**Lang2Json**](https://tterrag.com/lang2json/) - Converts old .lang files to the new json format.
 - [**Curse Profit Calculator**](https://cobalt.darkhax.net/curse-profit-calc/) - Allows you to quickly calculate curse profit by project over a period of time. Comes with several ways to export the data.
-- [**Modmuss's CurseTracker**](https://cursetracker.modmuss50.me/) - Shows statistics about Curse downloads, including hourly download breakdowns.
 - [**Author Version Coverage Sheet**](https://docs.google.com/spreadsheets/d/1gQY1EzYwOXpfehluqujwh_32regA798RHmdlgG6rdKU/edit#gid=0) - A google sheet which can be used to visualize all versions a mod author does/doesn't support with their mods. This is especially useful when tracking your progress updating to newer versions.
 - [**Gradle Collection**](https://github.com/MinecraftModDevelopment/Gradle-Collection) - A collection of gradle scripts that can be imported and used in your buildscripts.
 - [**GitIgnoreIO**](https://www.gitignore.io/) - A database of various .gitignore entries.
