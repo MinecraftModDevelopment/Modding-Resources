@@ -35,21 +35,21 @@
 | 1.12.1  | 14.22.1.2478        | 2.14   | 4.9    | 2.3-SNAPSHOT | snapshot_20170624        | stable_39                       | 9.41            | 8  | 8  | RB          | no log4j mitigation |
 | 1.12.1  | 14.22.1.2485        | 2.14   | 4.9    | 2.3-SNAPSHOT | snapshot_20170624        | stable_39                       | 9.41            | 8  | 8  | LB          | no log4j mitigation |
 | 1.12.2  | 14.23.5.2847        | 2.14   | 4.9    | 2.3-SNAPSHOT | snapshot_20171003        | stable_39                       | 9.42            | 8  | 8  | Last FG2    | no log4j mitigation |
-| 1.12.2  | 14.23.5.2855        | 2.14   | 5.6.4  | 3.+/4.1.+    | snapshot_20171003        | stable_39                       | 20200226        | 8  | 8  | RB          | no log4j mitigation |
-| 1.12.2  | 14.23.5.2857        | 2.14   | 5.6.4  | 3.+/4.1.+    | snapshot_20171003        | stable_39                       | 20200226        | 8  | 8  | LB          | |
+| 1.12.2  | 14.23.5.2859        | 2.14   | 5.6.4  | 3.+/4.1.+    | snapshot_20171003        | stable_39                       | 20200226        | 8  | 8  | RB          | |
+| 1.12.2  | 14.23.5.2860        | 2.14   | 5.6.4  | 3.+/4.1.+    | snapshot_20171003        | stable_39                       | 20200226        | 8  | 8  | LB          | |
 | 1.13    |                     | 4.9    | 5.6.4  | 3.+          |                          | stable_43                       |                 | 8  | 8  |             | |
 | 1.13.1  |                     | 4.9    | 5.6.4  | 3.+          |                          | stable_45                       |                 | 8  | 8  |             | |
-| 1.13.2  | 25.0.222            | 4.9    | 5.6.4  | 3.+          | snapshot_20180921-1.13   | stable_47                       | 20190213        | 8  | 8  | LB          | |
+| 1.13.2  | 25.0.223            | 4.9    | 5.6.4  | 3.+          | snapshot_20180921-1.13   | stable_47                       | 20190213        | 8  | 8  | LB          | |
 | 1.14    |                     | 4.9    | 5.6.4  | 3.+          |                          | stable_49                       |                 | 8  | 8  |             | |
 | 1.14.1  |                     | 4.9    | 5.6.4  | 3.+          |                          | stable_51                       |                 | 8  | 8  |             | |
 | 1.14.2  | 26.0.63             | 4.9    | 5.6.4  | 3.+          | snapshot_20190621-1.14.2 | stable_53                       | 20190603        | 8  | 8  | LB          | no log4j mitigation |
 | 1.14.3  | 27.0.60             | 4.9    | 5.6.4  | 3.+          | snapshot_20190719-1.14.3 | stable_56                       | 20190624        | 8  | 8  | LB          | no log4j mitigation |
 | 1.14.4  | 28.2.0              | 4.9    | 5.6.4  | 3.+          | snapshot_20190719-1.14.3 | stable_58                       | 20190829        | 8  | 8  | RB          | no log4j mitigation |
-| 1.14.4  | 28.2.25             | 4.9    | 5.6.4  | 3.+          | snapshot_20190719-1.14.3 | official_1.14.4<br>MCP: stable_58 | 20190829      | 8  | 8  | LB          | |
+| 1.14.4  | 28.2.26             | 4.9    | 5.6.4  | 3.+          | snapshot_20190719-1.14.3 | official_1.14.4<br>MCP: stable_58 | 20190829      | 8  | 8  | LB          | |
 | 1.15    | 29.0.4              | 4.9    | 5.6.4  | 3.+          | snapshot_20190719-1.14.3 | official_1.15<br>MCP: stable_60 | 20191212        | 8  | 8  | LB          | no log4j mitigation |
 | 1.15.1  | 30.0.51             | 4.9    | 5.6.4  | 3.+          | snapshot_20190719-1.14.3 | official_1.15.1<br>MCP: snapshot_20201118-1.15.1 | 20191217 | 8  | 8  | LB | no log4j mitigation |
 | 1.15.2  | 31.2.0              | 4.10.3 | 5.6.4  | 3.+          | snapshot_20200514-1.15.1 | official_1.15.1<br>MCP: snapshot_20201118-1.15.1 | 20200515 | 8  | 8  | RB | no log4j mitigation |
-| 1.15.2  | 31.2.56             | 4.10.3 | 5.6.4  | 3.+          | snapshot_20200514-1.15.1 | official_1.15.2<br>MCP: snapshot_20201118-1.15.1 | 20200515 | 8  | 8  | LB | |
+| 1.15.2  | 31.2.57             | 4.10.3 | 5.6.4  | 3.+          | snapshot_20200514-1.15.1 | official_1.15.2<br>MCP: snapshot_20201118-1.15.1 | 20200515 | 8  | 8  | LB | |
 | 1.16.1  | 32.0.108            | 4.10.3 | 5.6.4  | 3.+          | snapshot_20200514-1.16   | official_1.16.1<br>MCP: snapshot_20200820-1.16.1 | 20200625 | 8  | 8  | LB | Newer mappings available at [Dogforce Games](https://www.dogforce-games.com/maven/de/oceanlabs/mcp/mcp_snapshot/), no log4j mitigation |
 | 1.16.2  | 33.0.61             | 4.10.3 | 5.6.4  | 3.+          | snapshot_20200514-1.16   | official_1.16.2<br>MCP: snapshot_20200916-1.16.2 | 20200812 | 8  | 8  | LB | Newer mappings available at [Dogforce Games](https://www.dogforce-games.com/maven/de/oceanlabs/mcp/mcp_snapshot/), no log4j mitigation |
 | 1.16.3  | 34.1.0              | 4.10.3 | 5.6.4  | 3.+          | snapshot_20200514-1.16   | official_1.16.3<br>MCP: snapshot_20201028-1.16.3 | 20200911 | 8  | 8  | RB | no log4j mitigation |
@@ -60,8 +60,8 @@
 | 1.16.5  | 36.1.16             | 6.8.1  | 6.9.1  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  |             | no log4j mitigation |
 | 1.16.5  | 36.1.65             | 6.9    | 6.9.1  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | Last FG4 | no log4j mitigation |
 | 1.16.5  | 36.2.0              | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | RB | no log4j mitigation |
-| 1.16.5  | 36.2.20             | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | LB | |
+| 1.16.5  | 36.2.22             | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | LB | |
 | 1.17.1  | 37.0.59             | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.12.05                         | 20210706 | 16 | 16 | | First release of 1.17.1 which supports Mixins natively, no log4j mitigation |
 | 1.17.1  | 37.1.1              | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.12.05                         | 20210706 | 16 | 16 | RB,LB | |
 | 1.18    | 38.0.17             | 7.3    | 7.3.1  | 5.1.+        | official_1.18            | official_1.18<br>Parchment: 2021.12.05                           | 20211130 | 17 | 17 | LB | |
-| 1.18.1  | 39.0.0             | 7.3    | 7.3.1  | 5.1.+        | official_1.18.1            | official_1.18.1<br>Parchment: 2021.12.05                        | 20211210 | 17 | 17 | LB | |
+| 1.18.1  | 39.0.5             | 7.3    | 7.3.1  | 5.1.+        | official_1.18.1            | official_1.18.1<br>Parchment: 2021.12.05                        | 20211210 | 17 | 17 | LB | |
