@@ -64,4 +64,4 @@
 | 1.17.1  | 37.0.59             | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.12.12                         | 20210706 | 16 | 16 | | First release of 1.17.1 which supports Mixins natively, no log4j mitigation |
 | 1.17.1  | 37.1.1              | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.12.12                         | 20210706 | 16 | 16 | RB,LB | |
 | 1.18    | 38.0.17             | 7.3    | 7.3.1  | 5.1.+        | official_1.18            | official_1.18<br>Parchment: 2021.12.19                           | 20211130 | 17 | 17 | LB | |
-| 1.18.1  | 39.0.6             | 7.3    | 7.3.1  | 5.1.+        | official_1.18.1            | official_1.18.1<br>Parchment: 2021.12.19                        | 20211210 | 17 | 17 | LB | |
+| 1.18.1  | 39.0.17             | 7.3    | 7.3.1  | 5.1.+        | official_1.18.1            | official_1.18.1<br>Parchment: 2021.12.19                        | 20211210 | 17 | 17 | LB | |
