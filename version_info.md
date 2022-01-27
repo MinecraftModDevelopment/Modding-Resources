@@ -55,11 +55,11 @@
 | 1.16.4  | 35.1.4              | 4.10.3 | 5.6.4  | 3.+          | snapshot_20201028-1.16.3 | official_1.16.4<br>MCP: snapshot_20210309-1.16.4 | 20201102 | 8  | 8  | RB | no log4j mitigation |
 | 1.16.4  | 35.1.37             | 4.10.3 | 5.6.4  | 3.+          | snapshot_20201028-1.16.3 | official_1.16.4<br>MCP: snapshot_20210309-1.16.4 | 20201102 | 8  | 8  | LB | no log4j mitigation |
 | 1.16.5  | 36.0.46             | 4.10.3 | 5.6.4  | 3.+          | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | Last FG3 | no log4j mitigation |
-| 1.16.5  | 36.1.16             | 6.8.1  | 6.9.1  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  |             | no log4j mitigation |
-| 1.16.5  | 36.1.65             | 6.9    | 6.9.1  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | Last FG4 | no log4j mitigation |
+| 1.16.5  | 36.1.16             | 6.8.1  | 6.9.2  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  |             | no log4j mitigation |
+| 1.16.5  | 36.1.65             | 6.9    | 6.9.2  | 4.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | Last FG4 | no log4j mitigation |
 | 1.16.5  | 36.2.20             | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | RB | |
 | 1.16.5  | 36.2.23             | 7.1.1  | 7.2    | 5.1.+        | official_1.16.5          | official_1.16.5<br>MCP: 20210309-1.16.5<br>Parchment: 2021.10.17 | 20210115 | 8  | 8  | LB | |
 | 1.17.1  | 37.0.59             | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.12.12                         | 20210706 | 16 | 16 | | First release of 1.17.1 which supports Mixins natively, no log4j mitigation |
 | 1.17.1  | 37.1.1              | 7.2    | 7.2    | 5.1.+        | official_1.17.1          | official_1.17.1<br>Parchment: 2021.12.12                         | 20210706 | 16 | 16 | RB,LB | |
-| 1.18    | 38.0.17             | 7.3    | 7.3.1  | 5.1.+        | official_1.18            | official_1.18<br>Parchment: 2022.01.23                           | 20211130 | 17 | 17 | LB | |
-| 1.18.1  | 39.0.59             | 7.3    | 7.3.1  | 5.1.+        | official_1.18.1          | official_1.18.1<br>Parchment: 2022.01.23                         | 20211210 | 17 | 17 | LB | |
+| 1.18    | 38.0.17             | 7.3    | 7.3.3  | 5.1.+        | official_1.18            | official_1.18<br>Parchment: 2022.01.23                           | 20211130 | 17 | 17 | LB | |
+| 1.18.1  | 39.0.59             | 7.3    | 7.3.3  | 5.1.+        | official_1.18.1          | official_1.18.1<br>Parchment: 2022.01.23                         | 20211210 | 17 | 17 | LB | |
