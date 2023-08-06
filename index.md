@@ -2,8 +2,15 @@
 
 This page serves as a central index for the various resources we share and provide. 
 
-## Community Wiki
+## Community Wiki/Guides
 - [**Forge Community Wiki**](https://forge.gemwire.uk/wiki/Main_Page)
+- [**Custom Dimensions Guide by Commoble**](https://gist.github.com/Commoble/ac7d7b57c9cbbfcae310c4ab110c3cc0)
+- [A Barebones Example Mod for Structure Generation](https://github.com/TelepathicGrunt/StructureTutorialMod)
+- [1.14/1.15 Modding Guide (Very Limited Information but Still Good)](https://learn2forgemod.weebly.com/)
+- [Mixin Documentation](https://github.com/SpongePowered/Mixin/wiki)
+- [An Overview on All World Generation](https://www.youtube.com/watch?v=Tk9zuL-cpoY)
+- [An in depth document on how layers work as a whole](http://mc-server.xoft.cz/docs/Generator.html)
+- [A research paper on GenLayers](https://github.com/Cubitect/cubiomes/blob/master/LayerSummary.pdf)
 
 ## Tutorials
 - [**Darkhax's Tutorials**](https://darkhax.net/tag/mc-mod-tutorial?MMDDevPins) - 1.8/1.9/1.10/1.11/1.12
