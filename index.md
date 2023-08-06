@@ -57,6 +57,7 @@ This page serves as a central index for the various resources we share and provi
 ## General Tools
 - [**Thiakil's MCP Mapping Viewer**](http://mcp.thiakil.com/index.html) - Lets you quickly search for info on MCP and SRG mapping names.
 - [**Bspkrs's MCP Mapping Viewer**](http://bspk.rs/MC/MCPMappingViewer/index.html) - Lets you search through MCP mappings locally.
+- [**SheDaniel's Mapping and Dependency Tools**](https://linkie.shedaniel.me/mappings) Provides tools to get dependency versions for the different API's and mapping tools for porting mods/converting mappings.
 - [**Minecraft IDEA Plugin**](https://plugins.jetbrains.com/plugin/8327/) - Adds specialized support for Minecraft in IDEA. This is not required, but usually recommended.
 - [**Techne Model Conversion**](https://gist.github.com/ljfa-ag/cd137f5c741a0cfb0ead) - A pearl script for converting techne models to other model formats.
 - [**JsonLint**](http://jsonlint.com/) - A linter for Json. Let's you validate and format json files.
@@ -75,15 +76,10 @@ This page serves as a central index for the various resources we share and provi
 - [**OBJ Transformer**](https://www.dropbox.com/s/j4ho6oj5khru0o3/OBJ%20Transformer.jar?dl=1) - A simple program to transform 1.12.2 blockstate to 1.15 json model file for the new OBJ system 
 
 ### Git Clients
-- [**GitKraken**](https://www.gitkraken.com/) - A somewhat advanced git clinet. 
+- [**GitKraken**](https://www.gitkraken.com/) - A somewhat advanced git client. 
 - [**GitHub Client**](https://desktop.github.com/) - Easy for beginners. 
 - [**SourceTreeApp**](https://www.sourcetreeapp.com/) - A mid ranged git client.
 - [**TortoiseGit**](https://tortoisegit.org/) - A relatively minimalistic windows interface for Git.
-
-## Community Discords
-- [**BlameJared**](https://discord.blamejared.com) - You can go here for help with CraftTweaker, Prestige, and other mods made by Jared.
-- [**Mezz's Place**](https://discord.gg/EevEdSG) - You can go here for help with JEI, Forestry, and other mods made by Mezz.
-- [**Darkhax's Home**](https://discord.darkhax.net) - You can go here for help with Bookshelf, GameStages, and other mods made by Darkhax.
 
 ## Open Source Mods
 - [**Botania**](https://github.com/Vazkii/Botania) - A very good place to learn about almost all aspects of the game.
