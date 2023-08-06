@@ -28,6 +28,49 @@ This page serves as a central index for the various resources we share and provi
 - [**Forge's Official Docs (1.16.x)**](https://mcforge.readthedocs.io/en/1.16.x/)
 - **VikeStep's ASM Guide** - [Part 1](https://www.youtube.com/watch?v=FgaxnpD-DC4) - [Part 2](https://www.youtube.com/watch?v=75_rJYLj5AU)
 
+## Helpful world-gen tools and resources
+
+This website allows you to generate many types of datapacks files (including everything worldgen related) so you don't have to manually type out json configuration for everything.  
+https://misode.github.io/
+
+This website (Snowcapped) lets you interact with biome layouts and splines:  
+https://snowcapped.jacobsjo.eu/
+
+Snowcapped wiki:  
+https://github.com/jacobsjo/snowcapped/wiki
+
+This website lets you edit density functions visually so you can see how density functions connect  
+https://df-editor.jacobsjo.eu/1_19/
+
+This Github repository has all of the default worldgen files  
+https://github.com/misode/mcmeta/tree/data-json
+
+Helpful tutorials  
+This video explains how 1.18 terrain generation is done in a nutshell:  
+https://www.youtube.com/watch?v=CSa5O6knuwI
+
+This video explains how to add new dimensions in 1.18.2 (use https://misode.github.io/ to generate files for 1.19):  
+https://www.youtube.com/watch?v=7x4orazkO_s
+
+This guide explains how to add single piece structures into worldgen:  
+https://misode.github.io/guides/adding-custom-structures/
+
+Another guide for making structures:  
+https://gist.github.com/GentlemanRevvnar/98a8f191f46d28f63592672022c41497
+
+This guide explains the basics of the noise router:  
+https://misode.github.io/guides/noise-router/
+
+This guide explains how placed features work and all of their configurations:  
+https://misode.github.io/guides/placed-features/
+
+Forge Biome Modifiers:  
+https://forge.gemwire.uk/wiki/Biome_Modifiers#Builtin_Biome_Modifier_Types
+
+2 tutorial on how to make worldgen structures:  
+https://github.com/TelepathicGrunt/StructureTutorialMod/  
+https://misode.github.io/guides/adding-custom-structures/  
+
 ## Articles and Resources
 - [**List of Mod Ideas**](https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/edit) - A giant list of mod ideas you may use in your projects.
 - [**Java for Complete Beginners**](https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411) - A playlist of videos on YouTube that will teach you how to develop in Java. This is a very beginner friendly resource.
