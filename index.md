@@ -63,7 +63,7 @@ This page serves as a central index for the various resources we share and provi
 
 ## General Tools
 - [**Thiakil's MCP Mapping Viewer**](http://mcp.thiakil.com/index.html) - Lets you quickly search for info on MCP and SRG mapping names.
-- [**Bspkrs's MCP Mapping Viewer**](http://bspk.rs/MC/MCPMappingViewer/index.html) - Lets you search through MCP mappings locally.
+- [**Bspkrs's MCP Mapping Viewer (Issue Tracker, you need to copmpile it now days)**](https://github.com/bspkrs/MCPMappingViewer/issues/31) - Lets you search through MCP mappings locally.
 - [**SheDaniel's Mapping and Dependency Tools**](https://linkie.shedaniel.me/mappings) Provides tools to get dependency versions for the different API's and mapping tools for porting mods/converting mappings.
 - [**Minecraft IDEA Plugin**](https://plugins.jetbrains.com/plugin/8327/) - Adds specialized support for Minecraft in IDEA. This is not required, but usually recommended.
 - [**Techne Model Conversion**](https://gist.github.com/ljfa-ag/cd137f5c741a0cfb0ead) - A pearl script for converting techne models to other model formats.
