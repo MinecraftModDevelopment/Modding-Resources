@@ -72,6 +72,7 @@ https://github.com/TelepathicGrunt/StructureTutorialMod/
 https://misode.github.io/guides/adding-custom-structures/  
 
 ## Articles and Resources
+- [Forge Class Remapper](https://github.com/SizableShrimp/Forge-Class-Remapper) - The Forge Class Remapper is a tool used in order to update class names from 1.16.5 (MCP class names) to 1.17+ Mojang mappings.
 - [**List of Mod Ideas**](https://docs.google.com/document/d/10EDeU8_gGPBNcmZg_m9QTCuiRee-Ifw8dNWUTlGqWlg/edit) - A giant list of mod ideas you may use in your projects.
 - [**Java for Complete Beginners**](https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411) - A playlist of videos on YouTube that will teach you how to develop in Java. This is a very beginner friendly resource.
 - [**Oracle's Java Tutorials**](https://docs.oracle.com/javase/tutorial/) - These docs can be very technical, and are not friendly to new developers. 
